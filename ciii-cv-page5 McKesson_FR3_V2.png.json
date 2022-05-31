@@ -1,0 +1,3613 @@
+{
+    "transactionId": "a2352290-dd32-4b77-86f9-e13a5d14b9a2",
+    "clientName": "cvs-rxregaudit",
+    "imageRef": "Dev2",
+    "totalPages": 1,
+    "sourceModelName": "cvs-rxregaudit_compose_model",
+    "composeModelName": "cvs-rxregaudit_compose_model_04082022_FR3_1",
+    "composeModelId": "8ea6f064-b709-11ec-a920-005056aa00ce",
+    "document": null,
+    "pages": [
+        {
+            "pageNumber": 1,
+            "statusCode": 200,
+            "status": "succeeded",
+            "error": null,
+            "sourceModelName": "cvs-rxregaudit_ciii-cv-invoices_mckesson",
+            "modelName": "cvs-rxregaudit_ciii-cv-invoices_RxInvoice",
+            "modelId": "2a0baac2-b707-11ec-85a8-005056aa00ce",
+            "modelConfidence": 0.995,
+            "keyValuePairs": [
+                [
+                    {
+                        "dynamicTable": [
+                            {
+                                "key": "dept",
+                                "value": "2D402",
+                                "raw text": "2D402",
+                                "ocrConfidence": [
+                                    0.998
+                                ],
+                                "boundingBox": [
+                                    92,
+                                    1008,
+                                    156,
+                                    1008,
+                                    156,
+                                    1029,
+                                    92,
+                                    1029
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item",
+                                "value": "153-1961",
+                                "raw text": "153-1961",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    248,
+                                    1007,
+                                    340,
+                                    1007,
+                                    340,
+                                    1028,
+                                    248,
+                                    1028
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc#",
+                                "value": "69238-1204-02",
+                                "raw text": "69238-1204-02",
+                                "ocrConfidence": [
+                                    0.913
+                                ],
+                                "boundingBox": [
+                                    507,
+                                    1008,
+                                    655,
+                                    1008,
+                                    655,
+                                    1030,
+                                    507,
+                                    1030
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "del-doc#",
+                                "value": "648991065",
+                                "raw text": "648991065",
+                                "ocrConfidence": [
+                                    0.985
+                                ],
+                                "boundingBox": [
+                                    744,
+                                    1009,
+                                    853,
+                                    1009,
+                                    853,
+                                    1030,
+                                    744,
+                                    1030
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "drug-form",
+                                "value": "PATCH TDWK",
+                                "raw text": "PATCH TDWK",
+                                "ocrConfidence": [
+                                    0.994,
+                                    0.965
+                                ],
+                                "boundingBox": [
+                                    844,
+                                    1036,
+                                    982,
+                                    1036,
+                                    982,
+                                    1058,
+                                    844,
+                                    1058
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipped",
+                                "value": "1",
+                                "raw text": "1",
+                                "ocrConfidence": [
+                                    0.546
+                                ],
+                                "boundingBox": [
+                                    1057,
+                                    997,
+                                    1085,
+                                    997,
+                                    1085,
+                                    1046,
+                                    1057,
+                                    1046
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "um",
+                                "value": "CT",
+                                "raw text": "CT",
+                                "ocrConfidence": [
+                                    0.997
+                                ],
+                                "boundingBox": [
+                                    1121,
+                                    1007,
+                                    1152,
+                                    1007,
+                                    1152,
+                                    1030,
+                                    1121,
+                                    1030
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item-description",
+                                "value": "BUPR TRNSDSYST 15MCG/HR AMNCT@",
+                                "raw text": "BUPR TRNSDSYST 15MCG/HR AMNCT@",
+                                "ocrConfidence": [
+                                    0.994,
+                                    0.996,
+                                    0.985,
+                                    0.931
+                                ],
+                                "boundingBox": [
+                                    1189,
+                                    1009,
+                                    1604,
+                                    1009,
+                                    1604,
+                                    1034,
+                                    1189,
+                                    1034
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "awp",
+                                "value": "720.47",
+                                "raw text": "720.47",
+                                "ocrConfidence": [
+                                    0.999
+                                ],
+                                "boundingBox": [
+                                    1728,
+                                    1010,
+                                    1796,
+                                    1010,
+                                    1796,
+                                    1033,
+                                    1728,
+                                    1033
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "code",
+                                "value": "1KB",
+                                "raw text": "1KB",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1909,
+                                    1009,
+                                    1945,
+                                    1009,
+                                    1945,
+                                    1031,
+                                    1909,
+                                    1031
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "extended-amount",
+                                "value": "720.47",
+                                "raw text": "720.47",
+                                "ocrConfidence": [
+                                    0.998
+                                ],
+                                "boundingBox": [
+                                    2003,
+                                    1008,
+                                    2070,
+                                    1008,
+                                    2070,
+                                    1031,
+                                    2003,
+                                    1031
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "dept",
+                                "value": "2D402",
+                                "raw text": "2D402",
+                                "ocrConfidence": [
+                                    0.988
+                                ],
+                                "boundingBox": [
+                                    92,
+                                    1088,
+                                    156,
+                                    1088,
+                                    156,
+                                    1110,
+                                    92,
+                                    1110
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item",
+                                "value": "205-3536",
+                                "raw text": "205-3536",
+                                "ocrConfidence": [
+                                    0.993
+                                ],
+                                "boundingBox": [
+                                    245,
+                                    1088,
+                                    337,
+                                    1088,
+                                    337,
+                                    1109,
+                                    245,
+                                    1109
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc#",
+                                "value": "62856-0278-30",
+                                "raw text": "62856-0278-30",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    507,
+                                    1088,
+                                    654,
+                                    1088,
+                                    654,
+                                    1110,
+                                    507,
+                                    1110
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "del-doc#",
+                                "value": "648991065",
+                                "raw text": "648991065",
+                                "ocrConfidence": [
+                                    0.874
+                                ],
+                                "boundingBox": [
+                                    745,
+                                    1088,
+                                    854,
+                                    1088,
+                                    854,
+                                    1110,
+                                    745,
+                                    1110
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "drug-form",
+                                "value": "TABLET",
+                                "raw text": "TABLET",
+                                "ocrConfidence": [
+                                    0.682
+                                ],
+                                "boundingBox": [
+                                    846,
+                                    1117,
+                                    928,
+                                    1117,
+                                    928,
+                                    1137,
+                                    846,
+                                    1137
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipped",
+                                "value": "1",
+                                "raw text": "1",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1063,
+                                    1088,
+                                    1076,
+                                    1088,
+                                    1076,
+                                    1110,
+                                    1063,
+                                    1110
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "um",
+                                "value": "EA",
+                                "raw text": "EA",
+                                "ocrConfidence": [
+                                    0.974
+                                ],
+                                "boundingBox": [
+                                    1122,
+                                    1089,
+                                    1148,
+                                    1089,
+                                    1148,
+                                    1111,
+                                    1122,
+                                    1111
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item-description",
+                                "value": "FYCOMPA TAB 8MG 30",
+                                "raw text": "FYCOMPA TAB 8MG 30",
+                                "ocrConfidence": [
+                                    0.991,
+                                    0.986,
+                                    0.97,
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1187,
+                                    1089,
+                                    1435,
+                                    1089,
+                                    1435,
+                                    1112,
+                                    1187,
+                                    1112
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "awp",
+                                "value": "1,263.60",
+                                "raw text": "1,263.60",
+                                "ocrConfidence": [
+                                    0.993
+                                ],
+                                "boundingBox": [
+                                    1709,
+                                    1090,
+                                    1793,
+                                    1090,
+                                    1793,
+                                    1114,
+                                    1709,
+                                    1114
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "code",
+                                "value": "1D",
+                                "raw text": "1D",
+                                "ocrConfidence": [
+                                    0.982
+                                ],
+                                "boundingBox": [
+                                    1908,
+                                    1089,
+                                    1936,
+                                    1089,
+                                    1936,
+                                    1112,
+                                    1908,
+                                    1112
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "extended-amount",
+                                "value": "1,263.60",
+                                "raw text": "1,263.60",
+                                "ocrConfidence": [
+                                    0.98
+                                ],
+                                "boundingBox": [
+                                    1984,
+                                    1090,
+                                    2067,
+                                    1090,
+                                    2067,
+                                    1112,
+                                    1984,
+                                    1112
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "dept",
+                                "value": "2D402",
+                                "raw text": "2D402",
+                                "ocrConfidence": [
+                                    0.97
+                                ],
+                                "boundingBox": [
+                                    92,
+                                    1169,
+                                    156,
+                                    1169,
+                                    156,
+                                    1191,
+                                    92,
+                                    1191
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item",
+                                "value": "273-5645",
+                                "raw text": "273-5645",
+                                "ocrConfidence": [
+                                    0.966
+                                ],
+                                "boundingBox": [
+                                    245,
+                                    1169,
+                                    338,
+                                    1169,
+                                    338,
+                                    1190,
+                                    245,
+                                    1190
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc#",
+                                "value": "00591-0240-05",
+                                "raw text": "00591-0240-05",
+                                "ocrConfidence": [
+                                    0.985
+                                ],
+                                "boundingBox": [
+                                    507,
+                                    1169,
+                                    655,
+                                    1169,
+                                    655,
+                                    1192,
+                                    507,
+                                    1192
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "del-doc#",
+                                "value": "648991065",
+                                "raw text": "648991065",
+                                "ocrConfidence": [
+                                    0.972
+                                ],
+                                "boundingBox": [
+                                    744,
+                                    1170,
+                                    853,
+                                    1170,
+                                    853,
+                                    1193,
+                                    744,
+                                    1193
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "drug-form",
+                                "value": "TABLET",
+                                "raw text": "TABLET",
+                                "ocrConfidence": [
+                                    0.998
+                                ],
+                                "boundingBox": [
+                                    845,
+                                    1199,
+                                    928,
+                                    1199,
+                                    928,
+                                    1218,
+                                    845,
+                                    1218
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipped",
+                                "value": "0",
+                                "raw text": "0",
+                                "ocrConfidence": [
+                                    0.806
+                                ],
+                                "boundingBox": [
+                                    1039,
+                                    1111,
+                                    1088,
+                                    1111,
+                                    1088,
+                                    1233,
+                                    1039,
+                                    1233
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "um",
+                                "value": "EA",
+                                "raw text": "EA",
+                                "ocrConfidence": [
+                                    0.991
+                                ],
+                                "boundingBox": [
+                                    1121,
+                                    1169,
+                                    1150,
+                                    1169,
+                                    1150,
+                                    1194,
+                                    1121,
+                                    1194
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item-description",
+                                "value": "LORAZEP TAB 0.5MG WAT 500@",
+                                "raw text": "LORAZEP TAB 0.5MG WAT 500@",
+                                "ocrConfidence": [
+                                    0.994,
+                                    0.999,
+                                    0.996,
+                                    0.999,
+                                    0.924
+                                ],
+                                "boundingBox": [
+                                    1188,
+                                    1170,
+                                    1549,
+                                    1170,
+                                    1549,
+                                    1197,
+                                    1188,
+                                    1197
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "awp",
+                                "value": "330.80",
+                                "raw text": "330.80",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1726,
+                                    1172,
+                                    1793,
+                                    1172,
+                                    1793,
+                                    1195,
+                                    1726,
+                                    1195
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "code",
+                                "value": "1KD",
+                                "raw text": "1KD",
+                                "ocrConfidence": [
+                                    0.998
+                                ],
+                                "boundingBox": [
+                                    1909,
+                                    1171,
+                                    1945,
+                                    1171,
+                                    1945,
+                                    1193,
+                                    1909,
+                                    1193
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "extended-amount",
+                                "value": "330.80",
+                                "raw text": "330.80",
+                                "ocrConfidence": [
+                                    1
+                                ],
+                                "boundingBox": [
+                                    2002,
+                                    1172,
+                                    2069,
+                                    1172,
+                                    2069,
+                                    1194,
+                                    2002,
+                                    1194
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "dept",
+                                "value": "2D402",
+                                "raw text": "2D402",
+                                "ocrConfidence": [
+                                    0.991
+                                ],
+                                "boundingBox": [
+                                    93,
+                                    1277,
+                                    156,
+                                    1277,
+                                    156,
+                                    1298,
+                                    93,
+                                    1298
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item",
+                                "value": "200-7888",
+                                "raw text": "200-7888",
+                                "ocrConfidence": [
+                                    0.989
+                                ],
+                                "boundingBox": [
+                                    245,
+                                    1277,
+                                    336,
+                                    1277,
+                                    336,
+                                    1299,
+                                    245,
+                                    1299
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc#",
+                                "value": "00131-2477-60",
+                                "raw text": "00131-2477-60",
+                                "ocrConfidence": [
+                                    0.976
+                                ],
+                                "boundingBox": [
+                                    507,
+                                    1277,
+                                    656,
+                                    1277,
+                                    656,
+                                    1299,
+                                    507,
+                                    1299
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "del-doc#",
+                                "value": "648991065",
+                                "raw text": "648991065",
+                                "ocrConfidence": [
+                                    0.921
+                                ],
+                                "boundingBox": [
+                                    745,
+                                    1277,
+                                    853,
+                                    1277,
+                                    853,
+                                    1299,
+                                    745,
+                                    1299
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "drug-form",
+                                "value": "TABLET",
+                                "raw text": "TABLET",
+                                "ocrConfidence": [
+                                    0.824
+                                ],
+                                "boundingBox": [
+                                    845,
+                                    1305,
+                                    928,
+                                    1305,
+                                    928,
+                                    1326,
+                                    845,
+                                    1326
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "um",
+                                "value": "EA",
+                                "raw text": "EA",
+                                "ocrConfidence": [
+                                    0.99
+                                ],
+                                "boundingBox": [
+                                    1121,
+                                    1277,
+                                    1149,
+                                    1277,
+                                    1149,
+                                    1300,
+                                    1121,
+                                    1300
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item-description",
+                                "value": "VIMPAT TAB 50MG UD 60",
+                                "raw text": "VIMPAT TAB 50MG UD 60",
+                                "ocrConfidence": [
+                                    0.996,
+                                    0.968,
+                                    0.994,
+                                    0.996,
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1188,
+                                    1277,
+                                    1498,
+                                    1277,
+                                    1498,
+                                    1301,
+                                    1188,
+                                    1301
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "awp",
+                                "value": "788.56",
+                                "raw text": "788.56",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1726,
+                                    1275,
+                                    1797,
+                                    1275,
+                                    1797,
+                                    1307,
+                                    1726,
+                                    1307
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "code",
+                                "value": "1E",
+                                "raw text": "1E",
+                                "ocrConfidence": [
+                                    0.957
+                                ],
+                                "boundingBox": [
+                                    1908,
+                                    1278,
+                                    1935,
+                                    1278,
+                                    1935,
+                                    1300,
+                                    1908,
+                                    1300
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "extended-amount",
+                                "value": "788.56",
+                                "raw text": "788.56",
+                                "ocrConfidence": [
+                                    0.96
+                                ],
+                                "boundingBox": [
+                                    1994,
+                                    1279,
+                                    2060,
+                                    1279,
+                                    2060,
+                                    1302,
+                                    1994,
+                                    1302
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "dept",
+                                "value": "2D402",
+                                "raw text": "2D402",
+                                "ocrConfidence": [
+                                    0.679
+                                ],
+                                "boundingBox": [
+                                    93,
+                                    1358,
+                                    156,
+                                    1358,
+                                    156,
+                                    1379,
+                                    93,
+                                    1379
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item",
+                                "value": "214-2974",
+                                "raw text": "214-2974",
+                                "ocrConfidence": [
+                                    0.996
+                                ],
+                                "boundingBox": [
+                                    246,
+                                    1358,
+                                    337,
+                                    1358,
+                                    337,
+                                    1379,
+                                    246,
+                                    1379
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc#",
+                                "value": "00555-0159-02",
+                                "raw text": "00555-0159-02",
+                                "ocrConfidence": [
+                                    0.931
+                                ],
+                                "boundingBox": [
+                                    506,
+                                    1358,
+                                    656,
+                                    1358,
+                                    656,
+                                    1380,
+                                    506,
+                                    1380
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "del-doc#",
+                                "value": "648991065",
+                                "raw text": "648991065",
+                                "ocrConfidence": [
+                                    0.921
+                                ],
+                                "boundingBox": [
+                                    745,
+                                    1358,
+                                    852,
+                                    1358,
+                                    852,
+                                    1379,
+                                    745,
+                                    1379
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "drug-form",
+                                "value": "CAPSULE",
+                                "raw text": "CAPSULE",
+                                "ocrConfidence": [
+                                    0.993
+                                ],
+                                "boundingBox": [
+                                    843,
+                                    1415,
+                                    938,
+                                    1415,
+                                    938,
+                                    1434,
+                                    843,
+                                    1434
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipped",
+                                "value": "0 1",
+                                "raw text": "0 1",
+                                "ocrConfidence": [
+                                    0.977,
+                                    0.907
+                                ],
+                                "boundingBox": [
+                                    1062,
+                                    1359,
+                                    1076,
+                                    1359,
+                                    1076,
+                                    1407,
+                                    1062,
+                                    1407
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "um",
+                                "value": "* EA EA",
+                                "raw text": "* EA EA",
+                                "ocrConfidence": [
+                                    0.872,
+                                    0.958,
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1089,
+                                    1359,
+                                    1148,
+                                    1359,
+                                    1148,
+                                    1407,
+                                    1089,
+                                    1407
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "item-description",
+                                "value": "CHLORDIAZ CAP 25MG BARR 100@",
+                                "raw text": "CHLORDIAZ CAP 25MG BARR 100@",
+                                "ocrConfidence": [
+                                    0.97,
+                                    0.998,
+                                    0.994,
+                                    0.994,
+                                    0.992
+                                ],
+                                "boundingBox": [
+                                    1190,
+                                    1359,
+                                    1565,
+                                    1359,
+                                    1565,
+                                    1383,
+                                    1190,
+                                    1383
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "code",
+                                "value": "K",
+                                "raw text": "K",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    1913,
+                                    1360,
+                                    1923,
+                                    1360,
+                                    1923,
+                                    1379,
+                                    1913,
+                                    1379
+                                ],
+                                "source": "form recognizer"
+                            }
+                        ]
+                    }
+                ],
+                [
+                    [
+                        {
+                            "key": "Signature",
+                            "value": "Detected",
+                            "probability": 0.68,
+                            "boundingBox": [
+                                1240,
+                                56,
+                                1391,
+                                56,
+                                1391,
+                                253,
+                                1240,
+                                253
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.99,
+                            "boundingBox": [
+                                1030,
+                                1245,
+                                1112,
+                                1245,
+                                1112,
+                                1315,
+                                1030,
+                                1315
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.97,
+                            "boundingBox": [
+                                333,
+                                54,
+                                395,
+                                54,
+                                395,
+                                120,
+                                333,
+                                120
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.85,
+                            "boundingBox": [
+                                1017,
+                                978,
+                                1111,
+                                978,
+                                1111,
+                                1062,
+                                1017,
+                                1062
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.84,
+                            "boundingBox": [
+                                820,
+                                68,
+                                892,
+                                68,
+                                892,
+                                129,
+                                820,
+                                129
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.75,
+                            "boundingBox": [
+                                752,
+                                68,
+                                809,
+                                68,
+                                809,
+                                127,
+                                752,
+                                127
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.49,
+                            "boundingBox": [
+                                1018,
+                                1062,
+                                1099,
+                                1062,
+                                1099,
+                                1129,
+                                1018,
+                                1129
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.41,
+                            "boundingBox": [
+                                814,
+                                62,
+                                863,
+                                62,
+                                863,
+                                135,
+                                814,
+                                135
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 0.25,
+                            "boundingBox": [
+                                1025,
+                                1143,
+                                1093,
+                                1143,
+                                1093,
+                                1219,
+                                1025,
+                                1219
+                            ],
+                            "source": "custom vision"
+                        }
+                    ]
+                ]
+            ],
+            "ocrText": [
+                "MCKESSON",
+                "Invoice",
+                "Billing No .:",
+                "Billing Date:",
+                "PO#:",
+                "7302326007",
+                "10/26/2021",
+                "5202502",
+                "MCKESSON DRUG DC#8145",
+                "2101 12TH AVENUE SOUTH",
+                "CLEAR LAKE IA 50428",
+                "BILL TO:",
+                "CVS PHCY 8595D",
+                "ATTN: PHARMACY",
+                "1215 WEST FOXWOOD DR",
+                "RAYMORE MO 64083",
+                "Phone:",
+                "DEA:",
+                "855/625-6285",
+                "RM0490590",
+                "SHIP TO:",
+                "CVS PHCY 8595D",
+                "ATTN: PHARMACY",
+                "1215 WEST FOXWOOD DR",
+                "RAYMORE MO 64083",
+                "DEA:",
+                "PHCY:",
+                "CTRL:",
+                "CUST ID:",
+                "SUPP ID:",
+                "BC9263017",
+                "2006018562",
+                "786350785",
+                "08595",
+                "2D402",
+                "2021-11-03 15:40",
+                "10/76/21",
+                "843996",
+                "667",
+                "740",
+                "1 of 3",
+                "Customer",
+                "Route",
+                "Stop",
+                "Page",
+                "The prices co this invoice may be subject to relaxes, credits and offer price adjustments Yoo at obligated to",
+                "properly disclose and appropriately reflect all discounts, including rebotes, in claims and costs submitted to federal",
+                "and sale concerned health care programs (including Medicare and Medicaid) and to provide this invoice and other",
+                "discount documentation togoTanmoni authorities en request, in accordance with all applicable laws and regulations,",
+                "including 42 USC 1320a-7b(b)and the discount safe basbor.",
+                "DEPT",
+                "ITEM#",
+                "NDC/UPC#",
+                "DEL DOC#",
+                "OTY",
+                "UM",
+                "ITEM DESCRIPTION",
+                "AWP CODE",
+                "EXTENDED",
+                "H",
+                "AMOUNT",
+                "M1",
+                "*** Lupin-Irbesartan Consumer/Patient Level Recall *** IRBESARTAN TAB 150MG LUP 90; NDC#68180041109; Econo#3450996; IRBESARTAN TAB 75MG LUP 30; NDC#68180041006; Econo#3449832; IRBESAR",
+                "TB 300MG LUPI 90;",
+                "NDC#68180041209; Econo#3606696; IRBESARTAN TB 75MG LUP 90; NDC#68180041009; Econo#3632619; Consumers: Contact inmar M-F 9am-5pm EST at 855-769-3988 lo request a product retum and",
+                "reimbursement packet",
+                "Additional information available on Mckesson Connect. *** Lupin-Irbesartan and HCTZ Consumer/Patient Level Recall *** IRB+HCTZ TAB 150/12.5MG LUP 30; NDC#68180041306; Econo#3582954; IRB+HCTZ TAB",
+                "300/12.5MG LUP",
+                "30; NDC#68180041406; Econo#3582962; IRBES+HCTZ TB 150/12.5MG LUP 90; NDC#68180041309; Econo#/3609120; IRBES+HCTZ TB 300/12.5MG LUP 90;NDC#68180041409; Econo#3609138; Consumers:",
+                "Contact Inmar M-F 9am-5pm EST at",
+                "855-769-3989 to request a product returnand reimbursement packet; return the recalled product and pharmacy receipt following the instruction provided in the retum packet. Additional information available on",
+                "Mckesson Connect .*** Teligent-Lidocaine TS Consumer/Patient Level Recall *** LIDOCAINE HCLTOP SOL4% SKY 50ML; NDC#/63739099764; Econo#1518976; Consumers: contact Teligent by phone al",
+                "1-856-697-1441 and press *",
+                "CVS#8595 8163188022 >>",
+                "to reach the medical information call center M-F, or send an email to Medical@teligent.com. Additional information available on Mckesson Connect *** Teligent-Lidocaine TS Consumer/Patient Level Recall ***",
+                "LIDOCAINE HYD 4% SOL IGI 50ML; NDC#52565000950 Econo#2599868. Consumers: contact Teligent by phone at 1-856-697-1441 and press * to reach the medical information call center or send email to",
+                "Medical @teligent.com. Additional information available on Mckesson Connect.",
+                "CONTROLLED",
+                "2D402",
+                "153-1961",
+                "69238-1204-02",
+                "CONTAINER 3711426",
+                "648991065",
+                "PATCH TDWK",
+                "1",
+                "CT",
+                "BUPR TRNSDSYST 15MCG/HR AMNCT@",
+                "720.47",
+                "1KB",
+                "720.47",
+                "CONTROLLED",
+                "2D402",
+                "205-3536",
+                "62856-0278-30",
+                "648991065",
+                "1",
+                "EA FYCOMPA TAB 8MG 30",
+                "1,263.60",
+                "1D",
+                "1,263.60",
+                "TABLET",
+                "0",
+                "CONTROLLED",
+                "2D402",
+                "273-5645",
+                "00591-0240-05",
+                "648991065",
+                "EA",
+                "LORAZEP TAB 0.5MG WAT 500@",
+                "330.80",
+                "1KD",
+                "330.80",
+                "TABLET",
+                "2735645 / N00591024005 Was Substituted for 3593225 / N693 1 5090405 (LORAZEPAM TAB 0.5MG LEAD 500@) by Customer Preferred",
+                "CONTROLLED",
+                "2D402",
+                "200-7888",
+                "00131-2477-60",
+                "648991065",
+                "EA",
+                "VIMPAT TAB 50MG UD",
+                "60",
+                "788.56",
+                "1E",
+                "788.56",
+                "TABLET",
+                "CONTROLLED",
+                "2D402",
+                "214-2974",
+                "00555-0159-02",
+                "648991065",
+                "0",
+                "* EA",
+                "1",
+                "CHLORDIAZ CAP 25MG BARR 100@",
+                "K",
+                "Above Item",
+                "EA",
+                "Manufacturer limiting supply - full omit",
+                "CAPSULE",
+                "NOTE: THE BELOW ITEMS HAVE REASON FOR REJECTION AT SALES ORDER LEVEL",
+                "NDC/UPC#",
+                "ITEM#",
+                "QTY UM",
+                "ITEM DESCRIPTION",
+                "REJECTION REASON",
+                "T",
+                "matt Barn",
+                "irvin"
+            ],
+            "tables": [
+                {
+                    "rows": 14,
+                    "columns": 9,
+                    "cells": [
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 0,
+                            "text": "CONTROLLED 2D402",
+                            "boundingBox": [
+                                75,
+                                976,
+                                241,
+                                974,
+                                239,
+                                1056,
+                                73,
+                                1056
+                            ],
+                            "ocrConfidence": [
+                                0.995,
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 1,
+                            "text": "153-1961",
+                            "boundingBox": [
+                                241,
+                                974,
+                                412,
+                                974,
+                                420,
+                                1056,
+                                239,
+                                1056
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 2,
+                            "text": "69238-1204-02",
+                            "boundingBox": [
+                                412,
+                                974,
+                                699,
+                                976,
+                                701,
+                                1058,
+                                420,
+                                1056
+                            ],
+                            "ocrConfidence": [
+                                0.913
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 3,
+                            "text": "CONTAINER 3711426 648991065 PATCH TDWK",
+                            "boundingBox": [
+                                699,
+                                976,
+                                1021,
+                                978,
+                                1021,
+                                1058,
+                                701,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.855,
+                                0.958,
+                                0.985,
+                                0.994,
+                                0.965
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 4,
+                            "text": "1 CT",
+                            "boundingBox": [
+                                1021,
+                                978,
+                                1171,
+                                982,
+                                1171,
+                                1058,
+                                1021,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.546,
+                                0.997
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 5,
+                            "text": "BUPR TRNSDSYST 15MCG/HR AMNCT@",
+                            "boundingBox": [
+                                1171,
+                                982,
+                                1661,
+                                986,
+                                1663,
+                                1058,
+                                1171,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.994,
+                                0.996,
+                                0.985,
+                                0.931
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 6,
+                            "text": "720.47",
+                            "boundingBox": [
+                                1661,
+                                986,
+                                1852,
+                                988,
+                                1852,
+                                1058,
+                                1663,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.999
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 7,
+                            "text": "1KB",
+                            "boundingBox": [
+                                1852,
+                                988,
+                                1969,
+                                988,
+                                1969,
+                                1058,
+                                1852,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 8,
+                            "text": "720.47",
+                            "boundingBox": [
+                                1969,
+                                988,
+                                2088,
+                                988,
+                                2088,
+                                1058,
+                                1969,
+                                1058
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 0,
+                            "text": "CONTROLLED",
+                            "boundingBox": [
+                                73,
+                                1056,
+                                239,
+                                1056,
+                                239,
+                                1083,
+                                73,
+                                1083
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1056,
+                                420,
+                                1056,
+                                422,
+                                1085,
+                                239,
+                                1083
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                420,
+                                1056,
+                                701,
+                                1058,
+                                701,
+                                1085,
+                                422,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                1058,
+                                1021,
+                                1058,
+                                1019,
+                                1085,
+                                701,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1021,
+                                1058,
+                                1171,
+                                1058,
+                                1171,
+                                1085,
+                                1019,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1171,
+                                1058,
+                                1663,
+                                1058,
+                                1663,
+                                1085,
+                                1171,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1058,
+                                1852,
+                                1058,
+                                1852,
+                                1085,
+                                1663,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1852,
+                                1058,
+                                1969,
+                                1058,
+                                1969,
+                                1085,
+                                1852,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1058,
+                                2088,
+                                1058,
+                                2088,
+                                1085,
+                                1969,
+                                1085
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 0,
+                            "text": "2D402",
+                            "boundingBox": [
+                                73,
+                                1083,
+                                239,
+                                1083,
+                                239,
+                                1113,
+                                73,
+                                1113
+                            ],
+                            "ocrConfidence": [
+                                0.988
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 1,
+                            "text": "205-3536",
+                            "boundingBox": [
+                                239,
+                                1083,
+                                422,
+                                1085,
+                                426,
+                                1113,
+                                239,
+                                1113
+                            ],
+                            "ocrConfidence": [
+                                0.993
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 2,
+                            "text": "62856-0278-30",
+                            "boundingBox": [
+                                422,
+                                1085,
+                                701,
+                                1085,
+                                701,
+                                1115,
+                                426,
+                                1113
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 3,
+                            "text": "648991065",
+                            "boundingBox": [
+                                701,
+                                1085,
+                                1019,
+                                1085,
+                                1019,
+                                1115,
+                                701,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.874
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 4,
+                            "text": "1 EA",
+                            "boundingBox": [
+                                1019,
+                                1085,
+                                1171,
+                                1085,
+                                1171,
+                                1115,
+                                1019,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.994,
+                                0.974
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 5,
+                            "text": "FYCOMPA TAB 8MG 30",
+                            "boundingBox": [
+                                1171,
+                                1085,
+                                1663,
+                                1085,
+                                1663,
+                                1115,
+                                1171,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.991,
+                                0.986,
+                                0.97,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 6,
+                            "text": "1,263.60",
+                            "boundingBox": [
+                                1663,
+                                1085,
+                                1852,
+                                1085,
+                                1852,
+                                1115,
+                                1663,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.993
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 7,
+                            "text": "1D",
+                            "boundingBox": [
+                                1852,
+                                1085,
+                                1969,
+                                1085,
+                                1969,
+                                1115,
+                                1852,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.982
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 8,
+                            "text": "1,263.60",
+                            "boundingBox": [
+                                1969,
+                                1085,
+                                2088,
+                                1085,
+                                2088,
+                                1117,
+                                1969,
+                                1115
+                            ],
+                            "ocrConfidence": [
+                                0.98
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                73,
+                                1113,
+                                239,
+                                1113,
+                                239,
+                                1138,
+                                73,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1113,
+                                426,
+                                1113,
+                                428,
+                                1138,
+                                239,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                426,
+                                1113,
+                                701,
+                                1115,
+                                701,
+                                1138,
+                                428,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 3,
+                            "text": "TABLET",
+                            "boundingBox": [
+                                701,
+                                1115,
+                                1019,
+                                1115,
+                                1019,
+                                1138,
+                                701,
+                                1138
+                            ],
+                            "ocrConfidence": [
+                                0.682
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1019,
+                                1115,
+                                1171,
+                                1115,
+                                1173,
+                                1138,
+                                1019,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1171,
+                                1115,
+                                1663,
+                                1115,
+                                1663,
+                                1138,
+                                1173,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1115,
+                                1852,
+                                1115,
+                                1852,
+                                1138,
+                                1663,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1852,
+                                1115,
+                                1969,
+                                1115,
+                                1969,
+                                1138,
+                                1852,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1115,
+                                2088,
+                                1117,
+                                2088,
+                                1140,
+                                1969,
+                                1138
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 0,
+                            "text": "CONTROLLED",
+                            "boundingBox": [
+                                73,
+                                1138,
+                                239,
+                                1138,
+                                239,
+                                1165,
+                                73,
+                                1165
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1138,
+                                428,
+                                1138,
+                                430,
+                                1165,
+                                239,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                428,
+                                1138,
+                                701,
+                                1138,
+                                701,
+                                1165,
+                                430,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                1138,
+                                1019,
+                                1138,
+                                1019,
+                                1165,
+                                701,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1019,
+                                1138,
+                                1173,
+                                1138,
+                                1173,
+                                1163,
+                                1019,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1173,
+                                1138,
+                                1663,
+                                1138,
+                                1663,
+                                1165,
+                                1173,
+                                1163
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1138,
+                                1852,
+                                1138,
+                                1852,
+                                1167,
+                                1663,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1852,
+                                1138,
+                                1969,
+                                1138,
+                                1969,
+                                1165,
+                                1852,
+                                1167
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1138,
+                                2088,
+                                1140,
+                                2088,
+                                1165,
+                                1969,
+                                1165
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 0,
+                            "text": "2D402",
+                            "boundingBox": [
+                                73,
+                                1165,
+                                239,
+                                1165,
+                                239,
+                                1195,
+                                73,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.97
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 1,
+                            "text": "273-5645",
+                            "boundingBox": [
+                                239,
+                                1165,
+                                430,
+                                1165,
+                                432,
+                                1195,
+                                239,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.966
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 2,
+                            "text": "00591-0240-05",
+                            "boundingBox": [
+                                430,
+                                1165,
+                                701,
+                                1165,
+                                703,
+                                1195,
+                                432,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.985
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 3,
+                            "text": "648991065",
+                            "boundingBox": [
+                                701,
+                                1165,
+                                1019,
+                                1165,
+                                1019,
+                                1195,
+                                703,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.972
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 4,
+                            "text": "0 EA",
+                            "boundingBox": [
+                                1019,
+                                1165,
+                                1173,
+                                1163,
+                                1173,
+                                1195,
+                                1019,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.806,
+                                0.991
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 5,
+                            "text": "LORAZEP TAB 0.5MG WAT 500@",
+                            "boundingBox": [
+                                1173,
+                                1163,
+                                1663,
+                                1165,
+                                1663,
+                                1196,
+                                1173,
+                                1195
+                            ],
+                            "ocrConfidence": [
+                                0.994,
+                                0.999,
+                                0.996,
+                                0.999,
+                                0.924
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 6,
+                            "text": "330.80",
+                            "boundingBox": [
+                                1663,
+                                1165,
+                                1852,
+                                1167,
+                                1850,
+                                1196,
+                                1663,
+                                1196
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 7,
+                            "text": "1KD",
+                            "boundingBox": [
+                                1852,
+                                1167,
+                                1969,
+                                1165,
+                                1969,
+                                1196,
+                                1850,
+                                1196
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 8,
+                            "text": "330.80",
+                            "boundingBox": [
+                                1969,
+                                1165,
+                                2088,
+                                1165,
+                                2088,
+                                1198,
+                                1969,
+                                1196
+                            ],
+                            "ocrConfidence": [
+                                1
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                73,
+                                1195,
+                                239,
+                                1195,
+                                239,
+                                1220,
+                                73,
+                                1220
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1195,
+                                432,
+                                1195,
+                                434,
+                                1218,
+                                239,
+                                1220
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                432,
+                                1195,
+                                703,
+                                1195,
+                                703,
+                                1220,
+                                434,
+                                1218
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 3,
+                            "text": "TABLET",
+                            "boundingBox": [
+                                703,
+                                1195,
+                                1019,
+                                1195,
+                                1019,
+                                1220,
+                                703,
+                                1220
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1019,
+                                1195,
+                                1173,
+                                1195,
+                                1173,
+                                1220,
+                                1019,
+                                1220
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1173,
+                                1195,
+                                1663,
+                                1196,
+                                1663,
+                                1222,
+                                1173,
+                                1220
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1196,
+                                1850,
+                                1196,
+                                1850,
+                                1224,
+                                1663,
+                                1222
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1196,
+                                1969,
+                                1196,
+                                1969,
+                                1222,
+                                1850,
+                                1224
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1196,
+                                2088,
+                                1198,
+                                2088,
+                                1224,
+                                1969,
+                                1222
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                73,
+                                1220,
+                                239,
+                                1220,
+                                239,
+                                1247,
+                                73,
+                                1247
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 1,
+                            "text": "2735645 / N00591024005 Was Substituted for 3593225 / N693 1 5090405 (LORAZEPAM TAB 0.5MG LEAD 500@) by Customer Preferred",
+                            "boundingBox": [
+                                239,
+                                1220,
+                                1663,
+                                1222,
+                                1663,
+                                1249,
+                                239,
+                                1247
+                            ],
+                            "ocrConfidence": [
+                                0.964,
+                                0.927,
+                                0.901,
+                                0.996,
+                                0.834,
+                                0.931,
+                                0.966,
+                                0.977,
+                                0.989,
+                                0.557,
+                                0.728,
+                                0.974,
+                                0.994,
+                                0.936,
+                                0.686,
+                                0.923,
+                                0.998,
+                                0.994,
+                                0.94
+                            ]
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1222,
+                                1850,
+                                1224,
+                                1850,
+                                1249,
+                                1663,
+                                1249
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1224,
+                                1969,
+                                1222,
+                                1969,
+                                1249,
+                                1850,
+                                1249
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1222,
+                                2088,
+                                1224,
+                                2088,
+                                1251,
+                                1969,
+                                1249
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 0,
+                            "text": "CONTROLLED",
+                            "boundingBox": [
+                                73,
+                                1247,
+                                239,
+                                1247,
+                                239,
+                                1273,
+                                73,
+                                1273
+                            ],
+                            "ocrConfidence": [
+                                0.819
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1247,
+                                438,
+                                1247,
+                                440,
+                                1273,
+                                239,
+                                1273
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                438,
+                                1247,
+                                703,
+                                1247,
+                                703,
+                                1273,
+                                440,
+                                1273
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                703,
+                                1247,
+                                1019,
+                                1247,
+                                1019,
+                                1273,
+                                703,
+                                1273
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1019,
+                                1247,
+                                1173,
+                                1247,
+                                1173,
+                                1273,
+                                1019,
+                                1273
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1173,
+                                1247,
+                                1663,
+                                1249,
+                                1663,
+                                1274,
+                                1173,
+                                1273
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1249,
+                                1850,
+                                1249,
+                                1850,
+                                1274,
+                                1663,
+                                1274
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1249,
+                                1969,
+                                1249,
+                                1969,
+                                1274,
+                                1850,
+                                1274
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1249,
+                                2088,
+                                1251,
+                                2088,
+                                1276,
+                                1969,
+                                1274
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 0,
+                            "text": "2D402",
+                            "boundingBox": [
+                                73,
+                                1273,
+                                239,
+                                1273,
+                                239,
+                                1302,
+                                73,
+                                1302
+                            ],
+                            "ocrConfidence": [
+                                0.991
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 1,
+                            "text": "200-7888",
+                            "boundingBox": [
+                                239,
+                                1273,
+                                440,
+                                1273,
+                                442,
+                                1302,
+                                239,
+                                1302
+                            ],
+                            "ocrConfidence": [
+                                0.989
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 2,
+                            "text": "00131-2477-60",
+                            "boundingBox": [
+                                440,
+                                1273,
+                                703,
+                                1273,
+                                705,
+                                1302,
+                                442,
+                                1302
+                            ],
+                            "ocrConfidence": [
+                                0.976
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 3,
+                            "text": "648991065",
+                            "boundingBox": [
+                                703,
+                                1273,
+                                1019,
+                                1273,
+                                1019,
+                                1304,
+                                705,
+                                1302
+                            ],
+                            "ocrConfidence": [
+                                0.921
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 4,
+                            "text": "EA",
+                            "boundingBox": [
+                                1019,
+                                1273,
+                                1173,
+                                1273,
+                                1173,
+                                1304,
+                                1019,
+                                1304
+                            ],
+                            "ocrConfidence": [
+                                0.99
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 5,
+                            "text": "VIMPAT TAB 50MG UD 60",
+                            "boundingBox": [
+                                1173,
+                                1273,
+                                1663,
+                                1274,
+                                1663,
+                                1304,
+                                1173,
+                                1304
+                            ],
+                            "ocrConfidence": [
+                                0.996,
+                                0.968,
+                                0.994,
+                                0.996,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 6,
+                            "text": "788.56",
+                            "boundingBox": [
+                                1663,
+                                1274,
+                                1850,
+                                1274,
+                                1850,
+                                1304,
+                                1663,
+                                1304
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 7,
+                            "text": "1E",
+                            "boundingBox": [
+                                1850,
+                                1274,
+                                1969,
+                                1274,
+                                1969,
+                                1304,
+                                1850,
+                                1304
+                            ],
+                            "ocrConfidence": [
+                                0.957
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 8,
+                            "text": "788.56",
+                            "boundingBox": [
+                                1969,
+                                1274,
+                                2088,
+                                1276,
+                                2088,
+                                1306,
+                                1969,
+                                1304
+                            ],
+                            "ocrConfidence": [
+                                0.96
+                            ]
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                73,
+                                1302,
+                                239,
+                                1302,
+                                239,
+                                1327,
+                                73,
+                                1327
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1302,
+                                442,
+                                1302,
+                                444,
+                                1327,
+                                239,
+                                1327
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                442,
+                                1302,
+                                705,
+                                1302,
+                                705,
+                                1327,
+                                444,
+                                1327
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 3,
+                            "text": "TABLET",
+                            "boundingBox": [
+                                705,
+                                1302,
+                                1019,
+                                1304,
+                                1017,
+                                1329,
+                                705,
+                                1327
+                            ],
+                            "ocrConfidence": [
+                                0.824
+                            ]
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1019,
+                                1304,
+                                1173,
+                                1304,
+                                1173,
+                                1329,
+                                1017,
+                                1329
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1173,
+                                1304,
+                                1663,
+                                1304,
+                                1663,
+                                1331,
+                                1173,
+                                1329
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1304,
+                                1850,
+                                1304,
+                                1850,
+                                1331,
+                                1663,
+                                1331
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1304,
+                                1969,
+                                1304,
+                                1969,
+                                1331,
+                                1850,
+                                1331
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1304,
+                                2088,
+                                1306,
+                                2088,
+                                1331,
+                                1969,
+                                1331
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 0,
+                            "text": "CONTROLLED",
+                            "boundingBox": [
+                                73,
+                                1327,
+                                239,
+                                1327,
+                                239,
+                                1354,
+                                73,
+                                1354
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1327,
+                                444,
+                                1327,
+                                449,
+                                1352,
+                                239,
+                                1354
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                444,
+                                1327,
+                                705,
+                                1327,
+                                705,
+                                1352,
+                                449,
+                                1352
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                705,
+                                1327,
+                                1017,
+                                1329,
+                                1017,
+                                1352,
+                                705,
+                                1352
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1017,
+                                1329,
+                                1173,
+                                1329,
+                                1173,
+                                1352,
+                                1017,
+                                1352
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1173,
+                                1329,
+                                1663,
+                                1331,
+                                1663,
+                                1354,
+                                1173,
+                                1352
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1331,
+                                1850,
+                                1331,
+                                1850,
+                                1354,
+                                1663,
+                                1354
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1331,
+                                1969,
+                                1331,
+                                1969,
+                                1354,
+                                1850,
+                                1354
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1331,
+                                2088,
+                                1331,
+                                2088,
+                                1354,
+                                1969,
+                                1354
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 0,
+                            "text": "2D402",
+                            "boundingBox": [
+                                73,
+                                1354,
+                                239,
+                                1354,
+                                239,
+                                1382,
+                                73,
+                                1382
+                            ],
+                            "ocrConfidence": [
+                                0.679
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 1,
+                            "text": "214-2974",
+                            "boundingBox": [
+                                239,
+                                1354,
+                                449,
+                                1352,
+                                451,
+                                1384,
+                                239,
+                                1382
+                            ],
+                            "ocrConfidence": [
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 2,
+                            "text": "00555-0159-02",
+                            "boundingBox": [
+                                449,
+                                1352,
+                                705,
+                                1352,
+                                705,
+                                1384,
+                                451,
+                                1384
+                            ],
+                            "ocrConfidence": [
+                                0.931
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 3,
+                            "text": "648991065",
+                            "boundingBox": [
+                                705,
+                                1352,
+                                1017,
+                                1352,
+                                1017,
+                                1384,
+                                705,
+                                1384
+                            ],
+                            "ocrConfidence": [
+                                0.921
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 4,
+                            "text": "0 * EA",
+                            "boundingBox": [
+                                1017,
+                                1352,
+                                1173,
+                                1352,
+                                1173,
+                                1384,
+                                1017,
+                                1384
+                            ],
+                            "ocrConfidence": [
+                                0.977,
+                                0.872,
+                                0.958
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 5,
+                            "text": "CHLORDIAZ CAP 25MG BARR 100@",
+                            "boundingBox": [
+                                1173,
+                                1352,
+                                1663,
+                                1354,
+                                1663,
+                                1386,
+                                1173,
+                                1384
+                            ],
+                            "ocrConfidence": [
+                                0.97,
+                                0.998,
+                                0.994,
+                                0.994,
+                                0.992
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1354,
+                                1850,
+                                1354,
+                                1850,
+                                1386,
+                                1663,
+                                1386
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 7,
+                            "text": "K",
+                            "boundingBox": [
+                                1850,
+                                1354,
+                                1969,
+                                1354,
+                                1969,
+                                1386,
+                                1850,
+                                1386
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1354,
+                                2088,
+                                1354,
+                                2088,
+                                1386,
+                                1969,
+                                1386
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                73,
+                                1382,
+                                239,
+                                1382,
+                                237,
+                                1411,
+                                73,
+                                1413
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                239,
+                                1382,
+                                451,
+                                1384,
+                                453,
+                                1411,
+                                237,
+                                1411
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                451,
+                                1384,
+                                705,
+                                1384,
+                                705,
+                                1413,
+                                453,
+                                1411
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 3,
+                            "text": "Above Item",
+                            "boundingBox": [
+                                705,
+                                1384,
+                                1017,
+                                1384,
+                                1017,
+                                1415,
+                                705,
+                                1413
+                            ],
+                            "ocrConfidence": [
+                                0.93,
+                                0.687
+                            ]
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 4,
+                            "text": "1 EA",
+                            "boundingBox": [
+                                1017,
+                                1384,
+                                1173,
+                                1384,
+                                1173,
+                                1415,
+                                1017,
+                                1415
+                            ],
+                            "ocrConfidence": [
+                                0.907,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 5,
+                            "text": "Manufacturer limiting supply - full omit",
+                            "boundingBox": [
+                                1173,
+                                1384,
+                                1663,
+                                1386,
+                                1663,
+                                1415,
+                                1173,
+                                1415
+                            ],
+                            "ocrConfidence": [
+                                0.975,
+                                0.974,
+                                0.992,
+                                0.994,
+                                0.994,
+                                0.97
+                            ]
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 6,
+                            "text": "",
+                            "boundingBox": [
+                                1663,
+                                1386,
+                                1850,
+                                1386,
+                                1850,
+                                1415,
+                                1663,
+                                1415
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1850,
+                                1386,
+                                1969,
+                                1386,
+                                1969,
+                                1417,
+                                1850,
+                                1415
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1969,
+                                1386,
+                                2088,
+                                1386,
+                                2088,
+                                1415,
+                                1969,
+                                1417
+                            ],
+                            "ocrConfidence": []
+                        }
+                    ]
+                },
+                {
+                    "rows": 2,
+                    "columns": 4,
+                    "cells": [
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 0,
+                            "text": "10/76/21 843996",
+                            "boundingBox": [
+                                1407,
+                                244,
+                                1632,
+                                246,
+                                1630,
+                                285,
+                                1403,
+                                285
+                            ],
+                            "ocrConfidence": [
+                                0.598,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 1,
+                            "text": "667",
+                            "boundingBox": [
+                                1632,
+                                246,
+                                1743,
+                                246,
+                                1743,
+                                285,
+                                1630,
+                                285
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 2,
+                            "text": "740",
+                            "boundingBox": [
+                                1743,
+                                246,
+                                1911,
+                                246,
+                                1912,
+                                285,
+                                1743,
+                                285
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 3,
+                            "text": "1 of 3",
+                            "boundingBox": [
+                                1911,
+                                246,
+                                2107,
+                                247,
+                                2107,
+                                286,
+                                1912,
+                                285
+                            ],
+                            "ocrConfidence": [
+                                0.835,
+                                0.998,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 0,
+                            "text": "Customer",
+                            "boundingBox": [
+                                1403,
+                                285,
+                                1630,
+                                285,
+                                1629,
+                                322,
+                                1399,
+                                321
+                            ],
+                            "ocrConfidence": [
+                                0.924
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 1,
+                            "text": "Route",
+                            "boundingBox": [
+                                1630,
+                                285,
+                                1743,
+                                285,
+                                1743,
+                                322,
+                                1629,
+                                322
+                            ],
+                            "ocrConfidence": [
+                                0.997
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 2,
+                            "text": "Stop",
+                            "boundingBox": [
+                                1743,
+                                285,
+                                1912,
+                                285,
+                                1913,
+                                322,
+                                1743,
+                                322
+                            ],
+                            "ocrConfidence": [
+                                0.991
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 3,
+                            "text": "Page",
+                            "boundingBox": [
+                                1912,
+                                285,
+                                2107,
+                                286,
+                                2107,
+                                323,
+                                1913,
+                                322
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

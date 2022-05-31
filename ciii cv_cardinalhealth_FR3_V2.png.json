@@ -1,0 +1,4473 @@
+{
+    "transactionId": "050b4864-24cf-45d3-975f-d853951d9245",
+    "clientName": "cvs-rxregaudit",
+    "imageRef": "Dev2",
+    "totalPages": 1,
+    "sourceModelName": "cvs-rxregaudit_compose_model",
+    "composeModelName": "cvs-rxregaudit_compose_model_04082022_FR3_1",
+    "composeModelId": "8ea6f064-b709-11ec-a920-005056aa00ce",
+    "document": null,
+    "pages": [
+        {
+            "pageNumber": 1,
+            "statusCode": 200,
+            "status": "succeeded",
+            "error": null,
+            "sourceModelName": "cvs-rxregaudit_ciii-cv-invoices_cardinalhealth",
+            "modelName": "cvs-rxregaudit_ciii-cv-invoices_RxInvoice",
+            "modelId": "181dbc46-b708-11ec-a805-005056aa00ce",
+            "modelConfidence": 0.923,
+            "keyValuePairs": [
+                [
+                    {
+                        "dynamicTable": [
+                            {
+                                "key": "item-number",
+                                "value": "4220505",
+                                "raw text": "4220505",
+                                "ocrConfidence": [
+                                    0.922
+                                ],
+                                "boundingBox": [
+                                    445,
+                                    1982,
+                                    469,
+                                    1982,
+                                    469,
+                                    2109,
+                                    445,
+                                    2109
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "ndc-upc",
+                                "value": "00131-2479-35",
+                                "raw text": "00131-2479-35",
+                                "ocrConfidence": [
+                                    0.975
+                                ],
+                                "boundingBox": [
+                                    445,
+                                    1723,
+                                    472,
+                                    1723,
+                                    472,
+                                    1958,
+                                    445,
+                                    1958
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipping",
+                                "value": "6",
+                                "raw text": "6",
+                                "ocrConfidence": [
+                                    0.994
+                                ],
+                                "boundingBox": [
+                                    442,
+                                    1573,
+                                    469,
+                                    1573,
+                                    469,
+                                    1588,
+                                    442,
+                                    1588
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "qty-certified",
+                                "value": "F",
+                                "raw text": "F",
+                                "ocrConfidence": [
+                                    0.831
+                                ],
+                                "boundingBox": [
+                                    445,
+                                    1632,
+                                    457,
+                                    1632,
+                                    457,
+                                    1650,
+                                    445,
+                                    1650
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "description",
+                                "value": "VIMPAT C5 TABS 150M",
+                                "raw text": "VIMPAT C5 TABS 150M",
+                                "ocrConfidence": [
+                                    0.994,
+                                    0.929,
+                                    0.994,
+                                    0.91
+                                ],
+                                "boundingBox": [
+                                    442,
+                                    966,
+                                    477,
+                                    966,
+                                    477,
+                                    1500,
+                                    442,
+                                    1500
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "unit-price",
+                                "value": "1206.64",
+                                "raw text": "1206.64",
+                                "ocrConfidence": [
+                                    0.995
+                                ],
+                                "boundingBox": [
+                                    443,
+                                    275,
+                                    469,
+                                    275,
+                                    469,
+                                    400,
+                                    443,
+                                    400
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "extension",
+                                "value": "723984",
+                                "raw text": "723984",
+                                "ocrConfidence": [
+                                    0.999
+                                ],
+                                "boundingBox": [
+                                    439,
+                                    106,
+                                    469,
+                                    106,
+                                    469,
+                                    213,
+                                    439,
+                                    213
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "description",
+                                "value": "60",
+                                "raw text": "60",
+                                "ocrConfidence": [
+                                    0.996
+                                ],
+                                "boundingBox": [
+                                    474,
+                                    984,
+                                    496,
+                                    984,
+                                    496,
+                                    1015,
+                                    474,
+                                    1015
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipping",
+                                "value": "s)];",
+                                "raw text": "s)];",
+                                "ocrConfidence": [
+                                    0.662
+                                ],
+                                "boundingBox": [
+                                    504,
+                                    1551,
+                                    529,
+                                    1551,
+                                    529,
+                                    1608,
+                                    504,
+                                    1608
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "qty-certified",
+                                "value": "(",
+                                "raw text": "(",
+                                "ocrConfidence": [
+                                    1
+                                ],
+                                "boundingBox": [
+                                    504,
+                                    1611,
+                                    529,
+                                    1611,
+                                    529,
+                                    1622,
+                                    504,
+                                    1622
+                                ],
+                                "source": "form recognizer"
+                            },
+                            {
+                                "key": "shipping",
+                                "value": "6",
+                                "raw text": "6",
+                                "ocrConfidence": [
+                                    0.929
+                                ],
+                                "boundingBox": [
+                                    543,
+                                    1566,
+                                    585,
+                                    1566,
+                                    585,
+                                    1588,
+                                    543,
+                                    1588
+                                ],
+                                "source": "form recognizer"
+                            }
+                        ]
+                    }
+                ],
+                [
+                    [
+                        {
+                            "key": "Signature",
+                            "value": "Detected",
+                            "probability": 1.0,
+                            "boundingBox": [
+                                526,
+                                423,
+                                680,
+                                423,
+                                680,
+                                780,
+                                526,
+                                780
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 1.0,
+                            "boundingBox": [
+                                412,
+                                1544,
+                                489,
+                                1544,
+                                489,
+                                1617,
+                                412,
+                                1617
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Circled",
+                            "value": "Detected",
+                            "probability": 1.0,
+                            "boundingBox": [
+                                421,
+                                1624,
+                                489,
+                                1624,
+                                489,
+                                1691,
+                                421,
+                                1691
+                            ],
+                            "source": "custom vision"
+                        }
+                    ]
+                ]
+            ],
+            "ocrText": [
+                "-",
+                ".. .",
+                "S",
+                "(800) 334-5529",
+                "CardinalHealth",
+                "CARDINAL HEALTH",
+                "4 CARDINAL HEALTH CT",
+                "GREENSBORO, NC 27407",
+                "WHOLESALER ID : 150344660",
+                "DEA RW-0243903-FED-ID-68-0158739",
+                "PAGE",
+                "1 OF",
+                "1",
+                "ROUTE/STOP",
+                "330",
+                "015",
+                "RO",
+                "CUST. NO.",
+                "DATE",
+                "ORIGINAL INVOICE",
+                "387153",
+                "10/27/21",
+                "8459745",
+                "REG NO.",
+                "CUST. DEA NO.",
+                "ORDER NO.",
+                "CUSTOMER P.O. NUMBER",
+                "10064FN0777485",
+                "1173092",
+                "5285302",
+                "ORDER DATE",
+                "CONF. NO.",
+                "10/26/21",
+                "00601",
+                "CVS 7555",
+                "NC CVS PHARMACY LLC",
+                "04 17-@",
+                "2902 FORESTVILLE RD",
+                "RALEIGH, NC 27616",
+                "CVS 7555",
+                "NC CVS PHARMACY LLC",
+                "2902 FORESTVILLE RD",
+                "RALEIGH, NC 27616",
+                "OCT-28-2021 THU 12:48 PM CVS 7555",
+                "ITEM NUMBER",
+                "NDC/UPC",
+                "GECEN:D",
+                "CTE",
+                "SHIPPEO",
+                "DESCRIPTION",
+                "SIZE",
+                "LOCE",
+                "UNIT",
+                "PRICE",
+                "EXTENSION",
+                "4220505",
+                "TOTE#",
+                "00131-2479-35",
+                "see message ( s)];",
+                "F",
+                "6",
+                "121",
+                "ASN#",
+                "26-529-3771",
+                "VIMPAT",
+                "C5 TABS 150M",
+                "60 EA",
+                "5",
+                "==",
+                "1206.64",
+                "723984",
+                "6",
+                "TOTAL PIECES SHIPPED",
+                "Hilda",
+                "Williams",
+                "INVOICE SHIP DATE: 10/27/2021",
+                "10/27/2021",
+                "1",
+                "-",
+                "For SDS Visit: http://www",
+                ".mycardinalsdspd. com",
+                "PLEASE REMIT YOUR",
+                "CARDINAL.",
+                "|PAYMENTS T",
+                "HEALTH_11",
+                "110, LLC",
+                "FOLLOWING ADDRESS:",
+                "C/Q BANK OF AMERICA",
+                "FO-BOX 402600",
+                "ATLANTA,",
+                "GA",
+                "30384-2605",
+                "essages",
+                "-",
+                "--",
+                "-",
+                "-- -",
+                "-- -",
+                "-====",
+                "-",
+                "1",
+                "-",
+                "-",
+                "-",
+                "121 This product is required by the FDA to be dis",
+                "29. htm",
+                ". . .. .",
+                "edication guide for this product, please vis",
+                "--",
+                "- -",
+                "en",
+                "http: //www. fda. gov/Drugs/DrugSafety/ucm0",
+                "with a medication guid",
+                "To obtain",
+                "5",
+                "FAX:919 266 7352",
+                "-",
+                "1",
+                "588858",
+                "11/11/21",
+                "723984",
+                "HA",
+                "11316",
+                "-- -----------",
+                "T",
+                "Taxatie",
+                "OT Contract",
+                "DO Contract ltam Ovenile",
+                "CH Contract Nel",
+                "SP Special Pricing",
+                "6888",
+                "Price Overrkle",
+                "Special Net",
+                "+ Propship",
+                "2 0C Out",
+                "3 Mir Out",
+                ":",
+                "4 Nkit stocked",
+                "5 kir Disc",
+                "`B Naw des slon undvail;",
+                "9 Ftaslcicles żem",
+                "& DC Disc",
+                "S Alepalatory Aeviaw",
+                "Lis! Chenkra Basignalons",
+                ": E - Epliedrise",
+                ":",
+                "P - Phenylpropanelamine",
+                ": - Pesudce chedrie",
+                "L - Other List Chemical",
+                "DUE DATE",
+                "F",
+                "330",
+                "015",
+                "Source Contract",
+                "Non wholesale customers are finel dispensars thal are purchasing toc thek own use and will not redistribule",
+                "presciniais pharmaceuticals te any clher ersty.",
+                "Effective January 1, 2015, DSCSA Transaction Data for qualified prescription",
+                "drugs can be accessed via your usual ordering platform, such as Order",
+                "Express or Med eCommerce, or at cardinalhealth. comIrace.",
+                "The prices shown on this invoice are net of discounts provided at the time of purchase. Some of the products",
+                "listed on this invoice may be subject to additional discounts or rebates. Please reter lo your contract for any specific",
+                "additional discounts or rebates that may apply to these purchases. You may have an obligation pursuant to",
+                "42 USC $1320a-7b to report discounts and rebates to Medicare, Medicaid or other govermental health care programs.",
+                "00",
+                ":",
+                ":",
+                "-",
+                "P.001/002"
+            ],
+            "tables": [
+                {
+                    "rows": 16,
+                    "columns": 15,
+                    "cells": [
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 0,
+                            "text": "ITEM NUMBER",
+                            "boundingBox": [
+                                354,
+                                2136,
+                                352,
+                                1974,
+                                408,
+                                1974,
+                                410,
+                                2136
+                            ],
+                            "ocrConfidence": [
+                                0.648,
+                                0.631
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 1,
+                            "text": "NDC/UPC",
+                            "boundingBox": [
+                                352,
+                                1974,
+                                350,
+                                1719,
+                                408,
+                                1721,
+                                408,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.995
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 2,
+                            "text": "GECEN:D",
+                            "boundingBox": [
+                                350,
+                                1719,
+                                350,
+                                1641,
+                                408,
+                                1641,
+                                408,
+                                1721
+                            ],
+                            "ocrConfidence": [
+                                0.316
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 3,
+                            "text": "CTE SHIPPEO",
+                            "boundingBox": [
+                                350,
+                                1641,
+                                350,
+                                1561,
+                                408,
+                                1561,
+                                408,
+                                1641
+                            ],
+                            "ocrConfidence": [
+                                0.913,
+                                0.711
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                350,
+                                1561,
+                                350,
+                                1518,
+                                408,
+                                1518,
+                                408,
+                                1561
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 5,
+                            "text": "DESCRIPTION",
+                            "boundingBox": [
+                                350,
+                                1518,
+                                350,
+                                959,
+                                408,
+                                959,
+                                408,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.77
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 7,
+                            "text": "SIZE",
+                            "boundingBox": [
+                                350,
+                                959,
+                                350,
+                                872,
+                                408,
+                                872,
+                                408,
+                                959
+                            ],
+                            "ocrConfidence": [
+                                0.99
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 8,
+                            "text": "LOCE",
+                            "boundingBox": [
+                                350,
+                                872,
+                                350,
+                                829,
+                                408,
+                                829,
+                                408,
+                                872
+                            ],
+                            "ocrConfidence": [
+                                0.624
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                350,
+                                829,
+                                350,
+                                790,
+                                408,
+                                790,
+                                408,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                350,
+                                790,
+                                350,
+                                665,
+                                408,
+                                665,
+                                408,
+                                790
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                350,
+                                665,
+                                350,
+                                531,
+                                408,
+                                531,
+                                408,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                350,
+                                531,
+                                350,
+                                402,
+                                408,
+                                402,
+                                408,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 13,
+                            "text": "UNIT PRICE",
+                            "boundingBox": [
+                                350,
+                                402,
+                                350,
+                                272,
+                                408,
+                                272,
+                                408,
+                                402
+                            ],
+                            "ocrConfidence": [
+                                0.948,
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 14,
+                            "text": "EXTENSION",
+                            "boundingBox": [
+                                350,
+                                272,
+                                350,
+                                104,
+                                408,
+                                104,
+                                408,
+                                272
+                            ],
+                            "ocrConfidence": [
+                                0.978
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 0,
+                            "text": "4220505",
+                            "boundingBox": [
+                                410,
+                                2136,
+                                408,
+                                1974,
+                                548,
+                                1974,
+                                548,
+                                2138
+                            ],
+                            "ocrConfidence": [
+                                0.922
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 1,
+                            "text": "TOTE# 00131-2479-35 see",
+                            "boundingBox": [
+                                408,
+                                1974,
+                                408,
+                                1721,
+                                548,
+                                1721,
+                                548,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.999,
+                                0.975,
+                                0.993
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 2,
+                            "text": "message F",
+                            "boundingBox": [
+                                408,
+                                1721,
+                                408,
+                                1641,
+                                548,
+                                1641,
+                                548,
+                                1721
+                            ],
+                            "ocrConfidence": [
+                                1,
+                                0.831
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 3,
+                            "text": "( s)]; 6",
+                            "boundingBox": [
+                                408,
+                                1641,
+                                408,
+                                1561,
+                                548,
+                                1561,
+                                548,
+                                1641
+                            ],
+                            "ocrConfidence": [
+                                1,
+                                0.662,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                408,
+                                1561,
+                                408,
+                                1518,
+                                548,
+                                1518,
+                                548,
+                                1561
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 5,
+                            "text": "121 ASN# 26-529-3771 VIMPAT C5 TABS 150M 60",
+                            "boundingBox": [
+                                408,
+                                1518,
+                                408,
+                                959,
+                                548,
+                                957,
+                                548,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.997,
+                                0.994,
+                                0.995,
+                                0.994,
+                                0.929,
+                                0.994,
+                                0.91,
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 7,
+                            "text": "EA",
+                            "boundingBox": [
+                                408,
+                                959,
+                                408,
+                                872,
+                                548,
+                                870,
+                                548,
+                                957
+                            ],
+                            "ocrConfidence": [
+                                0.972
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                408,
+                                872,
+                                408,
+                                829,
+                                548,
+                                829,
+                                548,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 9,
+                            "text": "5",
+                            "boundingBox": [
+                                408,
+                                829,
+                                408,
+                                790,
+                                548,
+                                788,
+                                548,
+                                829
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                408,
+                                790,
+                                408,
+                                665,
+                                548,
+                                665,
+                                548,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                408,
+                                665,
+                                408,
+                                531,
+                                548,
+                                531,
+                                548,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                408,
+                                531,
+                                408,
+                                402,
+                                548,
+                                402,
+                                548,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 13,
+                            "text": "1206.64",
+                            "boundingBox": [
+                                408,
+                                402,
+                                408,
+                                272,
+                                548,
+                                272,
+                                548,
+                                402
+                            ],
+                            "ocrConfidence": [
+                                0.995
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 14,
+                            "text": "723984",
+                            "boundingBox": [
+                                408,
+                                272,
+                                408,
+                                104,
+                                548,
+                                104,
+                                548,
+                                272
+                            ],
+                            "ocrConfidence": [
+                                0.999
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                2138,
+                                548,
+                                1974,
+                                584,
+                                1974,
+                                584,
+                                2140
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                1974,
+                                548,
+                                1721,
+                                584,
+                                1721,
+                                584,
+                                1974
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                1721,
+                                548,
+                                1641,
+                                584,
+                                1641,
+                                584,
+                                1721
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 3,
+                            "text": "6",
+                            "boundingBox": [
+                                548,
+                                1641,
+                                548,
+                                1561,
+                                584,
+                                1561,
+                                584,
+                                1641
+                            ],
+                            "ocrConfidence": [
+                                0.929
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                1561,
+                                548,
+                                1518,
+                                584,
+                                1518,
+                                584,
+                                1561
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 5,
+                            "text": "TOTAL PIECES SHIPPED",
+                            "boundingBox": [
+                                548,
+                                1518,
+                                548,
+                                957,
+                                584,
+                                957,
+                                584,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.999,
+                                0.999,
+                                0.983
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                957,
+                                548,
+                                870,
+                                584,
+                                870,
+                                584,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                870,
+                                548,
+                                829,
+                                584,
+                                829,
+                                584,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                829,
+                                548,
+                                788,
+                                584,
+                                788,
+                                584,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 10,
+                            "text": "==",
+                            "boundingBox": [
+                                548,
+                                788,
+                                548,
+                                665,
+                                584,
+                                665,
+                                584,
+                                788
+                            ],
+                            "ocrConfidence": [
+                                0.38
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                665,
+                                548,
+                                531,
+                                584,
+                                531,
+                                584,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 12,
+                            "text": "Williams",
+                            "boundingBox": [
+                                548,
+                                531,
+                                548,
+                                402,
+                                584,
+                                402,
+                                584,
+                                531
+                            ],
+                            "ocrConfidence": [
+                                0.639
+                            ]
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                402,
+                                548,
+                                272,
+                                584,
+                                272,
+                                584,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 2,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                548,
+                                272,
+                                548,
+                                104,
+                                584,
+                                104,
+                                584,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 0,
+                            "text": "INVOICE",
+                            "boundingBox": [
+                                584,
+                                2140,
+                                584,
+                                1974,
+                                670,
+                                1974,
+                                670,
+                                2142
+                            ],
+                            "ocrConfidence": [
+                                0.973
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 1,
+                            "text": "SHIP DATE:",
+                            "boundingBox": [
+                                584,
+                                1974,
+                                584,
+                                1721,
+                                670,
+                                1721,
+                                670,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.991,
+                                0.973
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 2,
+                            "text": "10/27/2021",
+                            "boundingBox": [
+                                584,
+                                1721,
+                                584,
+                                1641,
+                                670,
+                                1641,
+                                670,
+                                1721
+                            ],
+                            "ocrConfidence": [
+                                0.902
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                1641,
+                                584,
+                                1561,
+                                615,
+                                1561,
+                                615,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                1561,
+                                584,
+                                1518,
+                                615,
+                                1518,
+                                615,
+                                1561
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                1518,
+                                584,
+                                957,
+                                615,
+                                957,
+                                615,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                957,
+                                584,
+                                870,
+                                617,
+                                870,
+                                615,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                870,
+                                584,
+                                829,
+                                617,
+                                829,
+                                617,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                829,
+                                584,
+                                788,
+                                615,
+                                788,
+                                617,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 10,
+                            "text": "Hilda",
+                            "boundingBox": [
+                                584,
+                                788,
+                                584,
+                                665,
+                                615,
+                                665,
+                                615,
+                                788
+                            ],
+                            "ocrConfidence": [
+                                0.857
+                            ]
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                665,
+                                584,
+                                531,
+                                617,
+                                531,
+                                615,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                531,
+                                584,
+                                402,
+                                615,
+                                402,
+                                617,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                584,
+                                402,
+                                584,
+                                272,
+                                617,
+                                272,
+                                615,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 3,
+                            "columnIndex": 14,
+                            "text": "1",
+                            "boundingBox": [
+                                584,
+                                272,
+                                584,
+                                104,
+                                617,
+                                104,
+                                617,
+                                272
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                1641,
+                                615,
+                                1561,
+                                670,
+                                1563,
+                                670,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                1561,
+                                615,
+                                1518,
+                                670,
+                                1518,
+                                670,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                1518,
+                                615,
+                                957,
+                                670,
+                                957,
+                                670,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                957,
+                                617,
+                                870,
+                                670,
+                                870,
+                                670,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                617,
+                                870,
+                                617,
+                                829,
+                                670,
+                                829,
+                                670,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                617,
+                                829,
+                                615,
+                                788,
+                                670,
+                                788,
+                                670,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                788,
+                                615,
+                                665,
+                                670,
+                                665,
+                                670,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 11,
+                            "text": "10/27/2021",
+                            "boundingBox": [
+                                615,
+                                665,
+                                617,
+                                531,
+                                672,
+                                531,
+                                670,
+                                665
+                            ],
+                            "ocrConfidence": [
+                                0.924
+                            ]
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                617,
+                                531,
+                                615,
+                                402,
+                                672,
+                                402,
+                                672,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                615,
+                                402,
+                                617,
+                                272,
+                                672,
+                                272,
+                                672,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 4,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                617,
+                                272,
+                                617,
+                                104,
+                                672,
+                                104,
+                                672,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                2142,
+                                670,
+                                1974,
+                                701,
+                                1974,
+                                701,
+                                2142
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                1974,
+                                670,
+                                1721,
+                                701,
+                                1721,
+                                701,
+                                1974
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                1721,
+                                670,
+                                1641,
+                                701,
+                                1641,
+                                701,
+                                1721
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                1641,
+                                670,
+                                1563,
+                                701,
+                                1563,
+                                701,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                1563,
+                                670,
+                                1518,
+                                701,
+                                1518,
+                                701,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                1518,
+                                670,
+                                957,
+                                699,
+                                957,
+                                701,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                957,
+                                670,
+                                870,
+                                699,
+                                870,
+                                699,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                870,
+                                670,
+                                829,
+                                699,
+                                829,
+                                699,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                829,
+                                670,
+                                788,
+                                699,
+                                788,
+                                699,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                788,
+                                670,
+                                665,
+                                699,
+                                665,
+                                699,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                670,
+                                665,
+                                672,
+                                531,
+                                701,
+                                531,
+                                699,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                672,
+                                531,
+                                672,
+                                402,
+                                701,
+                                402,
+                                701,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                672,
+                                402,
+                                672,
+                                272,
+                                701,
+                                272,
+                                701,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 5,
+                            "columnIndex": 14,
+                            "text": "-",
+                            "boundingBox": [
+                                672,
+                                272,
+                                672,
+                                104,
+                                701,
+                                104,
+                                701,
+                                272
+                            ],
+                            "ocrConfidence": [
+                                0.826
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 0,
+                            "text": "For SDS",
+                            "boundingBox": [
+                                701,
+                                2142,
+                                701,
+                                1974,
+                                765,
+                                1974,
+                                765,
+                                2142
+                            ],
+                            "ocrConfidence": [
+                                0.998,
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 1,
+                            "text": "Visit: http://www",
+                            "boundingBox": [
+                                701,
+                                1974,
+                                701,
+                                1721,
+                                765,
+                                1723,
+                                765,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.941,
+                                0.947
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                1721,
+                                701,
+                                1641,
+                                763,
+                                1641,
+                                765,
+                                1723
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                1641,
+                                701,
+                                1563,
+                                765,
+                                1563,
+                                763,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                1563,
+                                701,
+                                1518,
+                                765,
+                                1518,
+                                765,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 5,
+                            "text": ".mycardinalsdspd. com",
+                            "boundingBox": [
+                                701,
+                                1518,
+                                699,
+                                957,
+                                763,
+                                957,
+                                765,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.555,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                699,
+                                957,
+                                699,
+                                870,
+                                761,
+                                870,
+                                763,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                699,
+                                870,
+                                699,
+                                829,
+                                761,
+                                829,
+                                761,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                699,
+                                829,
+                                699,
+                                788,
+                                761,
+                                788,
+                                761,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                699,
+                                788,
+                                699,
+                                665,
+                                759,
+                                665,
+                                761,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                699,
+                                665,
+                                701,
+                                531,
+                                759,
+                                531,
+                                759,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                531,
+                                701,
+                                402,
+                                757,
+                                402,
+                                759,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                402,
+                                701,
+                                272,
+                                757,
+                                272,
+                                757,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 6,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                701,
+                                272,
+                                701,
+                                104,
+                                755,
+                                102,
+                                757,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                765,
+                                2142,
+                                765,
+                                1974,
+                                786,
+                                1974,
+                                786,
+                                2144
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                765,
+                                1974,
+                                765,
+                                1723,
+                                786,
+                                1723,
+                                786,
+                                1974
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                765,
+                                1723,
+                                763,
+                                1641,
+                                784,
+                                1641,
+                                786,
+                                1723
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                763,
+                                1641,
+                                765,
+                                1563,
+                                786,
+                                1563,
+                                784,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                765,
+                                1563,
+                                765,
+                                1518,
+                                786,
+                                1518,
+                                786,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                765,
+                                1518,
+                                763,
+                                957,
+                                786,
+                                957,
+                                786,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                763,
+                                957,
+                                761,
+                                870,
+                                786,
+                                870,
+                                786,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                761,
+                                870,
+                                761,
+                                829,
+                                786,
+                                829,
+                                786,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                761,
+                                829,
+                                761,
+                                788,
+                                786,
+                                788,
+                                786,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                761,
+                                788,
+                                759,
+                                665,
+                                784,
+                                665,
+                                786,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                759,
+                                665,
+                                759,
+                                531,
+                                784,
+                                531,
+                                784,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                759,
+                                531,
+                                757,
+                                402,
+                                782,
+                                402,
+                                784,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                757,
+                                402,
+                                757,
+                                272,
+                                784,
+                                272,
+                                782,
+                                402
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 7,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                757,
+                                272,
+                                755,
+                                102,
+                                784,
+                                102,
+                                784,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 0,
+                            "text": "PLEASE",
+                            "boundingBox": [
+                                786,
+                                2144,
+                                786,
+                                1974,
+                                840,
+                                1974,
+                                840,
+                                2144
+                            ],
+                            "ocrConfidence": [
+                                0.999
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 1,
+                            "text": "REMIT YOUR CARDINAL.",
+                            "boundingBox": [
+                                786,
+                                1974,
+                                786,
+                                1723,
+                                840,
+                                1723,
+                                840,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.999,
+                                0.984,
+                                0.697
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 2,
+                            "text": "|PAYMENTS",
+                            "boundingBox": [
+                                786,
+                                1723,
+                                784,
+                                1641,
+                                840,
+                                1641,
+                                840,
+                                1723
+                            ],
+                            "ocrConfidence": [
+                                0.559
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 3,
+                            "text": "HEALTH_11",
+                            "boundingBox": [
+                                784,
+                                1641,
+                                786,
+                                1563,
+                                840,
+                                1563,
+                                840,
+                                1641
+                            ],
+                            "ocrConfidence": [
+                                0.654
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 4,
+                            "text": "T 110,",
+                            "boundingBox": [
+                                786,
+                                1563,
+                                786,
+                                1518,
+                                840,
+                                1518,
+                                840,
+                                1563
+                            ],
+                            "ocrConfidence": [
+                                0.631,
+                                0.561
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 5,
+                            "text": "LLC FOLLOWING ADDRESS:",
+                            "boundingBox": [
+                                786,
+                                1518,
+                                786,
+                                957,
+                                840,
+                                957,
+                                840,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.967,
+                                0.992,
+                                0.678
+                            ]
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                786,
+                                957,
+                                786,
+                                870,
+                                840,
+                                870,
+                                840,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                786,
+                                870,
+                                786,
+                                829,
+                                840,
+                                829,
+                                840,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                786,
+                                829,
+                                786,
+                                788,
+                                840,
+                                788,
+                                840,
+                                829
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                786,
+                                788,
+                                784,
+                                665,
+                                840,
+                                665,
+                                840,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                784,
+                                665,
+                                784,
+                                531,
+                                840,
+                                531,
+                                840,
+                                665
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                784,
+                                531,
+                                782,
+                                402,
+                                840,
+                                400,
+                                840,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                782,
+                                402,
+                                784,
+                                272,
+                                840,
+                                272,
+                                840,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 8,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                784,
+                                272,
+                                784,
+                                102,
+                                840,
+                                102,
+                                840,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                2144,
+                                840,
+                                1974,
+                                885,
+                                1974,
+                                887,
+                                2146
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 1,
+                            "text": "C/Q BANK",
+                            "boundingBox": [
+                                840,
+                                1974,
+                                840,
+                                1723,
+                                885,
+                                1723,
+                                885,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.678,
+                                0.968
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 2,
+                            "text": "OF",
+                            "boundingBox": [
+                                840,
+                                1723,
+                                840,
+                                1641,
+                                885,
+                                1641,
+                                885,
+                                1723
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 3,
+                            "text": "AMERICA",
+                            "boundingBox": [
+                                840,
+                                1641,
+                                840,
+                                1563,
+                                885,
+                                1563,
+                                885,
+                                1641
+                            ],
+                            "ocrConfidence": [
+                                0.894
+                            ]
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                1563,
+                                840,
+                                1518,
+                                885,
+                                1518,
+                                885,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                1518,
+                                840,
+                                957,
+                                887,
+                                957,
+                                885,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                957,
+                                840,
+                                870,
+                                887,
+                                870,
+                                887,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                870,
+                                840,
+                                829,
+                                887,
+                                827,
+                                887,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                829,
+                                840,
+                                788,
+                                887,
+                                788,
+                                887,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                788,
+                                840,
+                                665,
+                                887,
+                                663,
+                                887,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                665,
+                                840,
+                                531,
+                                887,
+                                531,
+                                887,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                531,
+                                840,
+                                400,
+                                889,
+                                400,
+                                887,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                400,
+                                840,
+                                272,
+                                889,
+                                272,
+                                889,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 9,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                840,
+                                272,
+                                840,
+                                102,
+                                889,
+                                102,
+                                889,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                2146,
+                                885,
+                                1974,
+                                931,
+                                1974,
+                                931,
+                                2146
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 1,
+                            "text": "FO-BOX ATLANTA,",
+                            "boundingBox": [
+                                885,
+                                1974,
+                                885,
+                                1723,
+                                931,
+                                1723,
+                                931,
+                                1974
+                            ],
+                            "ocrConfidence": [
+                                0.657,
+                                0.958
+                            ]
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 2,
+                            "text": "402600 GA",
+                            "boundingBox": [
+                                885,
+                                1723,
+                                885,
+                                1641,
+                                931,
+                                1641,
+                                931,
+                                1723
+                            ],
+                            "ocrConfidence": [
+                                0.562,
+                                0.985
+                            ]
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                885,
+                                1641,
+                                885,
+                                1563,
+                                929,
+                                1563,
+                                931,
+                                1641
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                885,
+                                1563,
+                                885,
+                                1518,
+                                929,
+                                1518,
+                                929,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 5,
+                            "text": "30384-2605",
+                            "boundingBox": [
+                                885,
+                                1518,
+                                887,
+                                957,
+                                927,
+                                957,
+                                929,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.852
+                            ]
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                957,
+                                887,
+                                870,
+                                931,
+                                870,
+                                927,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                870,
+                                887,
+                                827,
+                                931,
+                                827,
+                                931,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                827,
+                                887,
+                                788,
+                                931,
+                                788,
+                                931,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                788,
+                                887,
+                                663,
+                                931,
+                                663,
+                                931,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                663,
+                                887,
+                                531,
+                                931,
+                                531,
+                                931,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                887,
+                                531,
+                                889,
+                                400,
+                                931,
+                                400,
+                                931,
+                                531
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                889,
+                                400,
+                                889,
+                                272,
+                                931,
+                                272,
+                                931,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 10,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                889,
+                                272,
+                                889,
+                                102,
+                                931,
+                                102,
+                                931,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 0,
+                            "text": "essages",
+                            "boundingBox": [
+                                931,
+                                2146,
+                                931,
+                                1974,
+                                976,
+                                1976,
+                                976,
+                                2146
+                            ],
+                            "ocrConfidence": [
+                                0.931
+                            ]
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                1974,
+                                931,
+                                1723,
+                                976,
+                                1723,
+                                976,
+                                1976
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                1723,
+                                931,
+                                1641,
+                                976,
+                                1639,
+                                976,
+                                1723
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                1641,
+                                929,
+                                1563,
+                                976,
+                                1563,
+                                976,
+                                1639
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                929,
+                                1563,
+                                929,
+                                1518,
+                                976,
+                                1518,
+                                976,
+                                1563
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                929,
+                                1518,
+                                927,
+                                957,
+                                976,
+                                957,
+                                976,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                927,
+                                957,
+                                931,
+                                870,
+                                976,
+                                870,
+                                976,
+                                957
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                870,
+                                931,
+                                827,
+                                976,
+                                827,
+                                976,
+                                870
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                827,
+                                931,
+                                788,
+                                976,
+                                788,
+                                976,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                788,
+                                931,
+                                663,
+                                976,
+                                663,
+                                976,
+                                788
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                663,
+                                931,
+                                531,
+                                976,
+                                529,
+                                976,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                531,
+                                931,
+                                400,
+                                976,
+                                400,
+                                976,
+                                529
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                400,
+                                931,
+                                272,
+                                976,
+                                272,
+                                976,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 11,
+                            "columnIndex": 14,
+                            "text": "",
+                            "boundingBox": [
+                                931,
+                                272,
+                                931,
+                                102,
+                                976,
+                                102,
+                                976,
+                                272
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 0,
+                            "text": "- -- - -",
+                            "boundingBox": [
+                                976,
+                                2146,
+                                976,
+                                1976,
+                                1141,
+                                1976,
+                                1141,
+                                2151
+                            ],
+                            "ocrConfidence": [
+                                0.735,
+                                0.572,
+                                0.879,
+                                0.834
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 1,
+                            "text": "-- - 121 This 29. . . .. .",
+                            "boundingBox": [
+                                976,
+                                1976,
+                                976,
+                                1723,
+                                1141,
+                                1725,
+                                1141,
+                                1976
+                            ],
+                            "ocrConfidence": [
+                                0.531,
+                                0.72,
+                                0.998,
+                                0.994,
+                                0.586,
+                                0.675,
+                                0.716,
+                                0.621,
+                                0.69
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 2,
+                            "text": "htm edication",
+                            "boundingBox": [
+                                976,
+                                1723,
+                                976,
+                                1639,
+                                1139,
+                                1639,
+                                1141,
+                                1725
+                            ],
+                            "ocrConfidence": [
+                                0.995,
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 3,
+                            "text": "product",
+                            "boundingBox": [
+                                976,
+                                1639,
+                                976,
+                                1563,
+                                1139,
+                                1566,
+                                1139,
+                                1639
+                            ],
+                            "ocrConfidence": [
+                                0.904
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 4,
+                            "text": "guide",
+                            "boundingBox": [
+                                976,
+                                1563,
+                                976,
+                                1518,
+                                1139,
+                                1518,
+                                1139,
+                                1566
+                            ],
+                            "ocrConfidence": [
+                                0.922
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 5,
+                            "text": "-- - -==== is required by the FDA to be dis for this product, please vis -- - -",
+                            "boundingBox": [
+                                976,
+                                1518,
+                                976,
+                                957,
+                                1137,
+                                954,
+                                1139,
+                                1518
+                            ],
+                            "ocrConfidence": [
+                                0.696,
+                                0.261,
+                                0.637,
+                                0.958,
+                                0.97,
+                                0.99,
+                                0.998,
+                                0.973,
+                                0.997,
+                                0.997,
+                                0.242,
+                                0.999,
+                                0.991,
+                                0.977,
+                                0.994,
+                                0.994,
+                                0.783,
+                                0.738,
+                                0.737
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 7,
+                            "text": "en",
+                            "boundingBox": [
+                                976,
+                                957,
+                                976,
+                                870,
+                                1137,
+                                868,
+                                1137,
+                                954
+                            ],
+                            "ocrConfidence": [
+                                0.888
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 8,
+                            "text": "http:",
+                            "boundingBox": [
+                                976,
+                                870,
+                                976,
+                                827,
+                                1137,
+                                827,
+                                1137,
+                                868
+                            ],
+                            "ocrConfidence": [
+                                0.641
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 9,
+                            "text": "- 1",
+                            "boundingBox": [
+                                976,
+                                827,
+                                976,
+                                788,
+                                1137,
+                                786,
+                                1137,
+                                827
+                            ],
+                            "ocrConfidence": [
+                                0.841,
+                                0.739
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 10,
+                            "text": "//www. fda. with a",
+                            "boundingBox": [
+                                976,
+                                788,
+                                976,
+                                663,
+                                1137,
+                                663,
+                                1137,
+                                786
+                            ],
+                            "ocrConfidence": [
+                                0.968,
+                                0.902,
+                                0.994,
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 11,
+                            "text": "- medication",
+                            "boundingBox": [
+                                976,
+                                663,
+                                976,
+                                529,
+                                1139,
+                                529,
+                                1137,
+                                663
+                            ],
+                            "ocrConfidence": [
+                                0.953,
+                                0.716
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 12,
+                            "text": "- gov/Drugs/DrugSafety/ucm0 guid",
+                            "boundingBox": [
+                                976,
+                                529,
+                                976,
+                                400,
+                                1137,
+                                400,
+                                1139,
+                                529
+                            ],
+                            "ocrConfidence": [
+                                0.697,
+                                0.671,
+                                0.977
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 13,
+                            "text": "To",
+                            "boundingBox": [
+                                976,
+                                400,
+                                976,
+                                272,
+                                1137,
+                                272,
+                                1137,
+                                400
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        },
+                        {
+                            "rowIndex": 12,
+                            "columnIndex": 14,
+                            "text": "obtain 5",
+                            "boundingBox": [
+                                976,
+                                272,
+                                976,
+                                102,
+                                1137,
+                                102,
+                                1137,
+                                272
+                            ],
+                            "ocrConfidence": [
+                                0.873,
+                                0.923
+                            ]
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                1141,
+                                2151,
+                                1141,
+                                1976,
+                                1241,
+                                1976,
+                                1243,
+                                2153
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                1141,
+                                1976,
+                                1141,
+                                1725,
+                                1241,
+                                1725,
+                                1241,
+                                1976
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                1141,
+                                1725,
+                                1139,
+                                1639,
+                                1241,
+                                1639,
+                                1241,
+                                1725
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                1139,
+                                1639,
+                                1139,
+                                1566,
+                                1241,
+                                1566,
+                                1241,
+                                1639
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1139,
+                                1566,
+                                1139,
+                                1518,
+                                1241,
+                                1518,
+                                1241,
+                                1566
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1139,
+                                1518,
+                                1137,
+                                954,
+                                1241,
+                                954,
+                                1241,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                954,
+                                1137,
+                                868,
+                                1241,
+                                868,
+                                1241,
+                                954
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                868,
+                                1137,
+                                827,
+                                1241,
+                                827,
+                                1241,
+                                868
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                827,
+                                1137,
+                                786,
+                                1241,
+                                786,
+                                1241,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                786,
+                                1137,
+                                663,
+                                1241,
+                                663,
+                                1241,
+                                786
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                663,
+                                1139,
+                                529,
+                                1241,
+                                529,
+                                1241,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                1139,
+                                529,
+                                1137,
+                                400,
+                                1243,
+                                400,
+                                1241,
+                                529
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                1137,
+                                400,
+                                1137,
+                                272,
+                                1243,
+                                274,
+                                1243,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 13,
+                            "columnIndex": 14,
+                            "text": "-",
+                            "boundingBox": [
+                                1137,
+                                272,
+                                1137,
+                                102,
+                                1243,
+                                102,
+                                1243,
+                                274
+                            ],
+                            "ocrConfidence": [
+                                0.71
+                            ]
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                1243,
+                                2153,
+                                1241,
+                                1976,
+                                1296,
+                                1976,
+                                1296,
+                                2153
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 1,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                1976,
+                                1241,
+                                1725,
+                                1296,
+                                1725,
+                                1296,
+                                1976
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                1725,
+                                1241,
+                                1639,
+                                1296,
+                                1639,
+                                1296,
+                                1725
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                1639,
+                                1241,
+                                1566,
+                                1296,
+                                1566,
+                                1296,
+                                1639
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                1566,
+                                1241,
+                                1518,
+                                1296,
+                                1518,
+                                1296,
+                                1566
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                1518,
+                                1241,
+                                954,
+                                1296,
+                                954,
+                                1296,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                954,
+                                1241,
+                                868,
+                                1296,
+                                868,
+                                1296,
+                                954
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                868,
+                                1241,
+                                827,
+                                1296,
+                                827,
+                                1296,
+                                868
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                827,
+                                1241,
+                                786,
+                                1296,
+                                786,
+                                1296,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                786,
+                                1241,
+                                663,
+                                1296,
+                                663,
+                                1296,
+                                786
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                663,
+                                1241,
+                                529,
+                                1296,
+                                529,
+                                1296,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 12,
+                            "text": "",
+                            "boundingBox": [
+                                1241,
+                                529,
+                                1243,
+                                400,
+                                1296,
+                                400,
+                                1296,
+                                529
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                1243,
+                                400,
+                                1243,
+                                274,
+                                1296,
+                                274,
+                                1296,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 14,
+                            "columnIndex": 14,
+                            "text": "1",
+                            "boundingBox": [
+                                1243,
+                                274,
+                                1243,
+                                102,
+                                1296,
+                                99,
+                                1296,
+                                274
+                            ],
+                            "ocrConfidence": [
+                                0.789
+                            ]
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                2153,
+                                1296,
+                                1976,
+                                1404,
+                                1976,
+                                1404,
+                                2157
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 1,
+                            "text": "588858",
+                            "boundingBox": [
+                                1296,
+                                1976,
+                                1296,
+                                1725,
+                                1404,
+                                1725,
+                                1404,
+                                1976
+                            ],
+                            "ocrConfidence": [
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 2,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                1725,
+                                1296,
+                                1639,
+                                1404,
+                                1639,
+                                1404,
+                                1725
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 3,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                1639,
+                                1296,
+                                1566,
+                                1404,
+                                1566,
+                                1404,
+                                1639
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 4,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                1566,
+                                1296,
+                                1518,
+                                1404,
+                                1518,
+                                1404,
+                                1566
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 5,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                1518,
+                                1296,
+                                954,
+                                1404,
+                                954,
+                                1404,
+                                1518
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 7,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                954,
+                                1296,
+                                868,
+                                1404,
+                                868,
+                                1404,
+                                954
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 8,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                868,
+                                1296,
+                                827,
+                                1404,
+                                827,
+                                1404,
+                                868
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 9,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                827,
+                                1296,
+                                786,
+                                1404,
+                                786,
+                                1404,
+                                827
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 10,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                786,
+                                1296,
+                                663,
+                                1406,
+                                663,
+                                1404,
+                                786
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 11,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                663,
+                                1296,
+                                529,
+                                1408,
+                                529,
+                                1406,
+                                663
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 12,
+                            "text": "11/11/21",
+                            "boundingBox": [
+                                1296,
+                                529,
+                                1296,
+                                400,
+                                1412,
+                                400,
+                                1408,
+                                529
+                            ],
+                            "ocrConfidence": [
+                                0.862
+                            ]
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 13,
+                            "text": "",
+                            "boundingBox": [
+                                1296,
+                                400,
+                                1296,
+                                274,
+                                1412,
+                                274,
+                                1412,
+                                400
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 15,
+                            "columnIndex": 14,
+                            "text": "723984",
+                            "boundingBox": [
+                                1296,
+                                274,
+                                1296,
+                                99,
+                                1412,
+                                99,
+                                1412,
+                                274
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rows": 2,
+                    "columns": 3,
+                    "cells": [
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 0,
+                            "text": "CUST. NO.",
+                            "boundingBox": [
+                                101,
+                                864,
+                                101,
+                                723,
+                                128,
+                                723,
+                                129,
+                                865
+                            ],
+                            "ocrConfidence": [
+                                0.907,
+                                0.883
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 1,
+                            "text": "DATE",
+                            "boundingBox": [
+                                101,
+                                723,
+                                101,
+                                542,
+                                127,
+                                542,
+                                128,
+                                723
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 2,
+                            "text": "ORIGINAL INVOICE",
+                            "boundingBox": [
+                                101,
+                                542,
+                                101,
+                                61,
+                                127,
+                                60,
+                                127,
+                                542
+                            ],
+                            "ocrConfidence": [
+                                0.994,
+                                0.964
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 0,
+                            "text": "387153",
+                            "boundingBox": [
+                                129,
+                                865,
+                                128,
+                                723,
+                                157,
+                                723,
+                                158,
+                                867
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 1,
+                            "text": "10/27/21",
+                            "boundingBox": [
+                                128,
+                                723,
+                                127,
+                                542,
+                                156,
+                                542,
+                                157,
+                                723
+                            ],
+                            "ocrConfidence": [
+                                0.985
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 2,
+                            "text": "8459745",
+                            "boundingBox": [
+                                127,
+                                542,
+                                127,
+                                60,
+                                156,
+                                60,
+                                156,
+                                542
+                            ],
+                            "ocrConfidence": [
+                                0.998
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rows": 2,
+                    "columns": 4,
+                    "cells": [
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 0,
+                            "text": "REG NO.",
+                            "boundingBox": [
+                                157,
+                                865,
+                                157,
+                                723,
+                                184,
+                                723,
+                                185,
+                                865
+                            ],
+                            "ocrConfidence": [
+                                0.995,
+                                0.829
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 1,
+                            "text": "CUST. DEA NO.",
+                            "boundingBox": [
+                                157,
+                                723,
+                                157,
+                                543,
+                                183,
+                                543,
+                                184,
+                                723
+                            ],
+                            "ocrConfidence": [
+                                0.977,
+                                0.998,
+                                0.905
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 2,
+                            "text": "ORDER NO.",
+                            "boundingBox": [
+                                157,
+                                543,
+                                157,
+                                392,
+                                183,
+                                393,
+                                183,
+                                543
+                            ],
+                            "ocrConfidence": [
+                                0.997,
+                                0.996
+                            ]
+                        },
+                        {
+                            "rowIndex": 0,
+                            "columnIndex": 3,
+                            "text": "CUSTOMER P.O. NUMBER",
+                            "boundingBox": [
+                                157,
+                                392,
+                                157,
+                                61,
+                                183,
+                                61,
+                                183,
+                                393
+                            ],
+                            "ocrConfidence": [
+                                0.994,
+                                0.906,
+                                0.927
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 0,
+                            "text": "",
+                            "boundingBox": [
+                                185,
+                                865,
+                                184,
+                                723,
+                                214,
+                                724,
+                                214,
+                                865
+                            ],
+                            "ocrConfidence": []
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 1,
+                            "text": "10064FN0777485",
+                            "boundingBox": [
+                                184,
+                                723,
+                                183,
+                                543,
+                                212,
+                                543,
+                                214,
+                                724
+                            ],
+                            "ocrConfidence": [
+                                0.985
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 2,
+                            "text": "1173092",
+                            "boundingBox": [
+                                183,
+                                543,
+                                183,
+                                393,
+                                212,
+                                394,
+                                212,
+                                543
+                            ],
+                            "ocrConfidence": [
+                                0.994
+                            ]
+                        },
+                        {
+                            "rowIndex": 1,
+                            "columnIndex": 3,
+                            "text": "5285302",
+                            "boundingBox": [
+                                183,
+                                393,
+                                183,
+                                61,
+                                211,
+                                61,
+                                212,
+                                394
+                            ],
+                            "ocrConfidence": [
+                                0.956
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

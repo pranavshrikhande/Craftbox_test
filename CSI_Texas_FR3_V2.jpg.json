@@ -1,0 +1,394 @@
+{
+    "transactionId": "9d4bdcde-e88d-4928-bbc3-4d6ac5ce6296",
+    "clientName": "cvs-rxregaudit",
+    "imageRef": "Dev2",
+    "totalPages": 1,
+    "sourceModelName": "cvs-rxregaudit_compose_model",
+    "composeModelName": "cvs-rxregaudit_compose_model_04082022_FR3_1",
+    "composeModelId": "8ea6f064-b709-11ec-a920-005056aa00ce",
+    "document": null,
+    "pages": [
+        {
+            "pageNumber": 1,
+            "statusCode": 200,
+            "status": "succeeded",
+            "error": null,
+            "sourceModelName": "cvs-rxregaudit_controlled sub inventory_texas",
+            "modelName": "cvs-rxregaudit_ControlledSubInventory",
+            "modelId": "3d7f76fa-b709-11ec-828b-005056aa00ce",
+            "modelConfidence": 0.882,
+            "keyValuePairs": [
+                [
+                    [
+                        {
+                            "key": "pharmacy_address_line1",
+                            "value": "800 W. Lastly Dr.",
+                            "confidence": 0.99,
+                            "positionConfidence": 0.99,
+                            "ocrConfidence": [
+                                0.997,
+                                0.991,
+                                0.984,
+                                0.992
+                            ],
+                            "boundingBox": [
+                                320,
+                                490,
+                                769,
+                                490,
+                                769,
+                                546,
+                                320,
+                                546
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "printed_name",
+                            "value": "Sarah Mc Murray",
+                            "confidence": 0.883,
+                            "positionConfidence": 0.883,
+                            "ocrConfidence": [
+                                0.928,
+                                0.998,
+                                0.993
+                            ],
+                            "boundingBox": [
+                                685,
+                                961,
+                                1056,
+                                961,
+                                1056,
+                                1026,
+                                685,
+                                1026
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "pharmacy_zip_code",
+                            "value": "32/13",
+                            "confidence": 0.994,
+                            "positionConfidence": 0.994,
+                            "ocrConfidence": [
+                                0.774
+                            ],
+                            "boundingBox": [
+                                915,
+                                560,
+                                1045,
+                                560,
+                                1045,
+                                601,
+                                915,
+                                601
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "inventory_conducted_time",
+                            "value": "11:00 pm",
+                            "confidence": 0.991,
+                            "positionConfidence": 0.991,
+                            "ocrConfidence": [
+                                0.931,
+                                0.998
+                            ],
+                            "boundingBox": [
+                                904,
+                                766,
+                                1076,
+                                766,
+                                1076,
+                                810,
+                                904,
+                                810
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "notary_date_by",
+                            "value": "20 by",
+                            "confidence": 0.885,
+                            "positionConfidence": 0.885,
+                            "ocrConfidence": [
+                                0.998,
+                                0.998
+                            ],
+                            "boundingBox": [
+                                306,
+                                1251,
+                                458,
+                                1251,
+                                458,
+                                1280,
+                                306,
+                                1280
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "pharmacy_store_no",
+                            "value": "13210",
+                            "confidence": 0.995,
+                            "positionConfidence": 0.995,
+                            "ocrConfidence": [
+                                0.966
+                            ],
+                            "boundingBox": [
+                                350,
+                                441,
+                                480,
+                                441,
+                                480,
+                                477,
+                                350,
+                                477
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "pharmacy_dea",
+                            "value": "FC-71245170",
+                            "confidence": 0.99,
+                            "positionConfidence": 0.99,
+                            "ocrConfidence": [
+                                0.873
+                            ],
+                            "boundingBox": [
+                                878,
+                                434,
+                                1165,
+                                434,
+                                1165,
+                                484,
+                                878,
+                                484
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "pharmacy_city",
+                            "value": "Lodei",
+                            "confidence": 0.994,
+                            "positionConfidence": 0.994,
+                            "ocrConfidence": [
+                                0.919
+                            ],
+                            "boundingBox": [
+                                327,
+                                551,
+                                451,
+                                551,
+                                451,
+                                601,
+                                327,
+                                601
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "pharmacy_state",
+                            "value": "TX",
+                            "confidence": 0.994,
+                            "positionConfidence": 0.994,
+                            "ocrConfidence": [
+                                0.997
+                            ],
+                            "boundingBox": [
+                                741,
+                                567,
+                                778,
+                                567,
+                                778,
+                                599,
+                                741,
+                                599
+                            ],
+                            "source": "form recognizer"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "inventory_conducted_date",
+                            "value": "12/ 15 1 2021",
+                            "confidence": 0.797,
+                            "positionConfidence": 0.797,
+                            "ocrConfidence": [
+                                0.496,
+                                0.973,
+                                0.562,
+                                0.909
+                            ],
+                            "boundingBox": [
+                                458,
+                                757,
+                                809,
+                                757,
+                                809,
+                                801,
+                                458,
+                                801
+                            ],
+                            "source": "form recognizer"
+                        },
+                        {
+                            "key": "inventory_conducted_date",
+                            "value": null,
+                            "confidence": 0,
+                            "source": "form recognizer parsed"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "key": "ReasonforInventory",
+                            "value": "Biennial/Annual",
+                            "probability": 1.0,
+                            "boundingBox": [
+                                388,
+                                618,
+                                725,
+                                618,
+                                725,
+                                708,
+                                388,
+                                708
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "ReportContents",
+                            "value": "CIII-V",
+                            "probability": 1.0,
+                            "boundingBox": [
+                                361,
+                                300,
+                                662,
+                                300,
+                                662,
+                                431,
+                                361,
+                                431
+                            ],
+                            "source": "custom vision"
+                        },
+                        {
+                            "key": "Signature",
+                            "value": "Detected",
+                            "probability": 0.99,
+                            "boundingBox": [
+                                74,
+                                959,
+                                498,
+                                959,
+                                498,
+                                1025,
+                                74,
+                                1025
+                            ],
+                            "source": "custom vision"
+                        }
+                    ]
+                ]
+            ],
+            "ocrText": [
+                "CVS pharmacy",
+                "TM",
+                "Controlled Substance Inventory",
+                "(Texas version)",
+                "Report Contents (circle one):",
+                "CII",
+                "CIII-V",
+                "PSE/E*",
+                "* If required by your state",
+                "CVS/pharmacy Store #",
+                "13210",
+                "DEA registration number: FC-71245170",
+                "Address:",
+                "800 W. Lastly Dr.",
+                "City:",
+                "Lodei",
+                "State: TX",
+                "Zip: 32/13",
+                "Reason for inventory:",
+                "BIENNIAL / ANNUAL",
+                "Change in PIC **",
+                "(circle one)",
+                "Drug(s) Newly Scheduled",
+                "Acquired Inventory",
+                "Initial Inventory",
+                "Inventory Conducted:",
+                "12/",
+                "Date",
+                "15",
+                "1",
+                "2021",
+                "11:00 pm",
+                "Time",
+                "Circle one:",
+                "Opening of Business",
+                "Closing of Business",
+                "I certify that the Controlled Substances Inventory conducted on the date recorded above and contained herein",
+                "is accurate and has been conducted according to the rules established under Texas Administrative Code: Title",
+                "22, Part 15, Chapter 291, Subchapter A, Rule § 291.17.",
+                "Sarah the Dunes",
+                "Sarah Mc Murray",
+                "SIGNATURE of RPh performing count",
+                "PRINTED NAME of RPh performing count",
+                "** If Change in PIC (circle one):",
+                "Outgoing PIC",
+                "Incoming PIC",
+                "This inventory form must be notarized within three (3) days after completion of the Controlled",
+                "Substance Inventory (excluding Saturdays, Sundays, and federal holidays).",
+                "The foregoing instrument was acknowledged before me this day of",
+                "20",
+                "by",
+                "(Notary Seal)",
+                "who is personally known to me or has produced",
+                "NOTARY SECTION",
+                "as documentation and did / did not take an oath.",
+                "Name (Print, Type or Stamp)",
+                "Signature of Notary",
+                "Notary/Commission No.",
+                "Commission Expiration Date"
+            ],
+            "tables": {}
+        }
+    ]
+}
